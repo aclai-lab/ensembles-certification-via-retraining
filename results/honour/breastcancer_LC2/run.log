@@ -1,0 +1,156 @@
+A model of type Ensemble{Float64, String} returned
+B
+First cor: 0.961025641025641; Cert cor: 0.9605263157894737
+A model of type Ensemble{Float64, String} returned
+B
+First cor: 0.9463108320251178; Cert cor: 0.928414442700157
+A model of type Ensemble{Float64, String} returned
+[ Info: SyntaxBranch: V1 ≥ 27.45 ∧ V1 ≤ 28.09 ∧ V3 ≥ 167.0 ∧ V3 ≤ 170.0
+[ Info: SyntaxBranch: [Or] ≥ 1 ∧ [Or] ≤ 1
+[ Info: Variance change at n=456; largest: V24 -669.4 (cumulative -669.4), V4 -280 (cumulative -280), V3 +10.76 (cumulative +10.76)
+[ Info: Variance change at n=457; largest: V24 -600.6 (cumulative -1270), V4 -261 (cumulative -541), V3 +10.66 (cumulative +21.42)
+[ Info: Variance change at n=458; largest: V24 -619.9 (cumulative -1890), V4 -246.7 (cumulative -787.7), V3 +10.56 (cumulative +31.98)
+[ Info: Variance change at n=459; largest: V24 -652.3 (cumulative -2542), V4 -276.1 (cumulative -1064), V3 +10.46 (cumulative +42.44)
+[ Info: Variance change at n=460; largest: V24 -627.8 (cumulative -3170), V4 -262.6 (cumulative -1326), V3 +10.37 (cumulative +52.81)
+[ Info: Repeat cycle and add the 460-th instance to the dataset
+[ Info: Variance change at n=461; largest: V24 -682.1 (cumulative -3852), V4 -272.4 (cumulative -1599), V3 +10.27 (cumulative +63.08)
+[ Info: Variance change at n=462; largest: V24 -466.1 (cumulative -4318), V4 -187.2 (cumulative -1786), V3 +10.17 (cumulative +73.26)
+[ Info: Variance change at n=463; largest: V24 -664.3 (cumulative -4983), V4 -270.9 (cumulative -2057), V3 +10.08 (cumulative +83.34)
+[ Info: Variance change at n=464; largest: V24 -597.4 (cumulative -5580), V4 -247.6 (cumulative -2304), V3 +9.988 (cumulative +93.32)
+[ Info: Variance change at n=465; largest: V24 -664.5 (cumulative -6245), V4 -265.1 (cumulative -2570), V3 +9.895 (cumulative +103.2)
+[ Info: Repeat cycle and add the 465-th instance to the dataset
+[ Info: Variance change at n=466; largest: V24 -608.6 (cumulative -6853), V4 -241 (cumulative -2811), V3 +9.804 (cumulative +113)
+[ Info: Variance change at n=467; largest: V24 -423.5 (cumulative -7277), V4 -135.7 (cumulative -2946), V3 +9.714 (cumulative +122.7)
+[ Info: Variance change at n=468; largest: V24 -618.6 (cumulative -7895), V4 -229.2 (cumulative -3175), V3 +9.624 (cumulative +132.4)
+[ Info: Variance change at n=469; largest: V24 -525.2 (cumulative -8420), V4 -198.1 (cumulative -3374), V3 +9.535 (cumulative +141.9)
+[ Info: Variance change at n=470; largest: V24 -550.5 (cumulative -8971), V4 -235.5 (cumulative -3609), V3 +9.447 (cumulative +151.3)
+[ Info: Repeat cycle and add the 470-th instance to the dataset
+[ Info: Variance change at n=471; largest: V24 -644.1 (cumulative -9615), V4 -262 (cumulative -3871), V3 +9.361 (cumulative +160.7)
+[ Info: Variance change at n=472; largest: V24 -409.9 (cumulative -1.003e+04), V4 -158.1 (cumulative -4029), V3 +9.274 (cumulative +170)
+[ Info: Variance change at n=473; largest: V24 -411 (cumulative -1.044e+04), V4 -195.5 (cumulative -4225), V3 +9.189 (cumulative +179.2)
+[ Info: Variance change at n=474; largest: V24 -468.4 (cumulative -1.09e+04), V4 -213 (cumulative -4438), V3 +9.105 (cumulative +188.3)
+[ Info: Variance change at n=475; largest: V24 -162.7 (cumulative -1.107e+04), V4 -15.39 (cumulative -4453), V3 +9.021 (cumulative +197.3)
+[ Info: Repeat cycle and add the 475-th instance to the dataset
+[ Info: Variance change at n=476; largest: V24 -541.5 (cumulative -1.161e+04), V4 -231.3 (cumulative -4684), V3 +8.938 (cumulative +206.2)
+[ Info: Variance change at n=477; largest: V24 -562.7 (cumulative -1.217e+04), V4 -237.2 (cumulative -4922), V3 +8.856 (cumulative +215.1)
+[ Info: Variance change at n=478; largest: V24 -639.1 (cumulative -1.281e+04), V4 -222.7 (cumulative -5144), V3 +8.775 (cumulative +223.9)
+[ Info: Variance change at n=479; largest: V24 -598.8 (cumulative -1.341e+04), V4 -255 (cumulative -5399), V3 +8.695 (cumulative +232.6)
+[ Info: Variance change at n=480; largest: V24 -229.6 (cumulative -1.364e+04), V4 -83.33 (cumulative -5483), V3 +8.615 (cumulative +241.2)
+[ Info: Repeat cycle and add the 480-th instance to the dataset
+[ Info: Variance change at n=481; largest: V24 +192.9 (cumulative -1.345e+04), V4 +178.8 (cumulative -5304), V3 +8.536 (cumulative +249.7)
+[ Info: Variance change at n=482; largest: V24 -290.3 (cumulative -1.374e+04), V4 -102.9 (cumulative -5407), V3 +8.458 (cumulative +258.2)
+[ Info: Variance change at n=483; largest: V24 +256.3 (cumulative -1.348e+04), V4 +240.4 (cumulative -5166), V3 +8.381 (cumulative +266.5)
+[ Info: Variance change at n=484; largest: V4 +99.54 (cumulative -5067), V24 +64.4 (cumulative -1.342e+04), V3 +8.304 (cumulative +274.9)
+[ Info: Variance change at n=485; largest: V24 -604.8 (cumulative -1.402e+04), V4 -186.5 (cumulative -5253), V3 +8.228 (cumulative +283.1)
+[ Info: Repeat cycle and add the 485-th instance to the dataset
+[ Info: Variance change at n=486; largest: V24 -599.5 (cumulative -1.462e+04), V4 -251.3 (cumulative -5505), V3 +8.153 (cumulative +291.2)
+[ Info: Variance change at n=487; largest: V24 -612.6 (cumulative -1.523e+04), V4 -250.9 (cumulative -5755), V3 +8.078 (cumulative +299.3)
+[ Info: Variance change at n=488; largest: V24 -455.8 (cumulative -1.569e+04), V4 -207.1 (cumulative -5963), V3 +8.005 (cumulative +307.3)
+[ Info: Variance change at n=489; largest: V24 -613.6 (cumulative -1.63e+04), V4 -243 (cumulative -6206), V3 +7.932 (cumulative +315.2)
+[ Info: Variance change at n=490; largest: V24 -607.2 (cumulative -1.691e+04), V4 -248 (cumulative -6454), V3 +7.859 (cumulative +323.1)
+[ Info: Repeat cycle and add the 490-th instance to the dataset
+[ Info: Variance change at n=491; largest: V24 -383.3 (cumulative -1.729e+04), V4 -16.99 (cumulative -6471), V3 +7.788 (cumulative +330.9)
+[ Info: Variance change at n=492; largest: V24 -607.3 (cumulative -1.79e+04), V4 -224 (cumulative -6695), V3 +7.717 (cumulative +338.6)
+[ Info: Variance change at n=493; largest: V24 -601.9 (cumulative -1.85e+04), V4 -235.8 (cumulative -6930), V3 +7.646 (cumulative +346.3)
+[ Info: Variance change at n=494; largest: V24 -536.5 (cumulative -1.904e+04), V4 -239.4 (cumulative -7170), V3 +7.577 (cumulative +353.8)
+[ Info: Variance change at n=495; largest: V24 -600.2 (cumulative -1.964e+04), V4 -243.3 (cumulative -7413), V3 +7.508 (cumulative +361.3)
+[ Info: Repeat cycle and add the 495-th instance to the dataset
+[ Info: Variance change at n=496; largest: V24 -564.9 (cumulative -2.02e+04), V4 -176.1 (cumulative -7589), V3 +7.439 (cumulative +368.8)
+[ Info: Variance change at n=497; largest: V24 -582.6 (cumulative -2.079e+04), V4 -240.5 (cumulative -7830), V3 +7.372 (cumulative +376.2)
+[ Info: Variance change at n=498; largest: V24 -579.6 (cumulative -2.137e+04), V4 -236.7 (cumulative -8066), V3 +7.305 (cumulative +383.5)
+[ Info: Variance change at n=499; largest: V24 -581.4 (cumulative -2.195e+04), V4 -238.1 (cumulative -8304), V3 +7.238 (cumulative +390.7)
+[ Info: Variance change at n=500; largest: V24 -563.7 (cumulative -2.251e+04), V4 -221.9 (cumulative -8526), V3 +7.172 (cumulative +397.9)
+[ Info: Repeat cycle and add the 500-th instance to the dataset
+[ Info: Variance change at n=501; largest: V24 -571 (cumulative -2.308e+04), V4 -237.3 (cumulative -8764), V3 +7.107 (cumulative +405)
+[ Info: Variance change at n=502; largest: V24 -514.9 (cumulative -2.36e+04), V4 -223.6 (cumulative -8987), V3 +7.043 (cumulative +412)
+[ Info: Variance change at n=503; largest: V24 -531.1 (cumulative -2.413e+04), V4 -211.7 (cumulative -9199), V3 +6.979 (cumulative +419)
+[ Info: Variance change at n=504; largest: V24 -557.6 (cumulative -2.469e+04), V4 -234 (cumulative -9433), V3 +6.915 (cumulative +425.9)
+[ Info: Variance change at n=505; largest: V24 -537.8 (cumulative -2.522e+04), V4 -225 (cumulative -9658), V3 +6.852 (cumulative +432.8)
+[ Info: Repeat cycle and add the 505-th instance to the dataset
+[ Info: The negation of the constraint is UNSAT; thus, the entire formula is SAT and the model is certified.
+[ Info: SyntaxBranch: V1 ≥ 27.45 ∧ V1 ≤ 28.09 ∧ V3 ≥ 167.0 ∧ V3 ≤ 170.0
+[ Info: SyntaxBranch: [Or] ≥ 1 ∧ [Or] ≤ 1
+[ Info: Variance change at n=456; largest: V4 +209.9 (cumulative +209.9), V24 +132.5 (cumulative +132.5), V3 +11.01 (cumulative +11.01)
+[ Info: Variance change at n=457; largest: V24 -197.9 (cumulative -65.38), V3 +10.91 (cumulative +21.93), V4 +8.395 (cumulative +218.3)
+[ Info: Variance change at n=458; largest: V24 -436.7 (cumulative -502.1), V4 -101.3 (cumulative +117), V3 +10.81 (cumulative +32.74)
+[ Info: Variance change at n=459; largest: V24 -266.7 (cumulative -768.8), V4 -100.2 (cumulative +16.76), V3 +10.71 (cumulative +43.45)
+[ Info: Variance change at n=460; largest: V24 -350.7 (cumulative -1120), V4 -83.09 (cumulative -66.33), V3 +10.61 (cumulative +54.06)
+[ Info: Repeat cycle and add the 460-th instance to the dataset
+[ Info: Variance change at n=461; largest: V24 -260 (cumulative -1380), V4 -87.02 (cumulative -153.3), V3 +10.51 (cumulative +64.57)
+[ Info: Variance change at n=462; largest: V24 -355.5 (cumulative -1735), V4 -144 (cumulative -297.4), V3 +10.42 (cumulative +74.99)
+[ Info: Variance change at n=463; largest: V24 -520.9 (cumulative -2256), V4 -226.8 (cumulative -524.1), V3 +10.32 (cumulative +85.3)
+[ Info: Variance change at n=464; largest: V24 -269 (cumulative -2525), V4 -101.3 (cumulative -625.5), V3 +10.22 (cumulative +95.53)
+[ Info: Variance change at n=465; largest: V24 -590.3 (cumulative -3115), V4 -249 (cumulative -874.4), V3 +10.13 (cumulative +105.7)
+[ Info: Repeat cycle and add the 465-th instance to the dataset
+[ Info: Variance change at n=466; largest: V4 +111.8 (cumulative -762.7), V24 +43.75 (cumulative -3072), V3 +10.04 (cumulative +115.7)
+[ Info: Variance change at n=467; largest: V24 -252.2 (cumulative -3324), V4 -73.2 (cumulative -835.9), V3 +9.943 (cumulative +125.6)
+[ Info: Variance change at n=468; largest: V24 -163 (cumulative -3487), V4 +23.71 (cumulative -812.2), V3 +9.852 (cumulative +135.5)
+[ Info: Variance change at n=469; largest: V24 -180.9 (cumulative -3668), V3 +9.761 (cumulative +145.2), V4 -7.331 (cumulative -819.5)
+[ Info: Variance change at n=470; largest: V24 -464.3 (cumulative -4132), V4 -150.5 (cumulative -970), V3 +9.671 (cumulative +154.9)
+[ Info: Repeat cycle and add the 470-th instance to the dataset
+[ Info: Variance change at n=471; largest: V24 -504.5 (cumulative -4636), V4 -233.4 (cumulative -1203), V3 +9.582 (cumulative +164.5)
+[ Info: Variance change at n=472; largest: V24 -527.9 (cumulative -5164), V4 -224.6 (cumulative -1428), V3 +9.494 (cumulative +174)
+[ Info: Variance change at n=473; largest: V24 -455.9 (cumulative -5620), V4 -168.1 (cumulative -1596), V3 +9.407 (cumulative +183.4)
+[ Info: Variance change at n=474; largest: V24 -369.8 (cumulative -5990), V4 -141.6 (cumulative -1738), V3 +9.32 (cumulative +192.7)
+[ Info: Variance change at n=475; largest: V24 -436.1 (cumulative -6426), V4 -155.2 (cumulative -1893), V3 +9.235 (cumulative +202)
+[ Info: Repeat cycle and add the 475-th instance to the dataset
+[ Info: Variance change at n=476; largest: V24 -686 (cumulative -7112), V4 -206.4 (cumulative -2099), V3 +9.15 (cumulative +211.1)
+[ Info: Variance change at n=477; largest: V24 -684.6 (cumulative -7797), V4 -241.6 (cumulative -2341), V3 +9.066 (cumulative +220.2)
+[ Info: Variance change at n=478; largest: V24 -674 (cumulative -8471), V4 -218.8 (cumulative -2560), V3 +8.983 (cumulative +229.2)
+[ Info: Variance change at n=479; largest: V24 -639.9 (cumulative -9111), V4 -256.1 (cumulative -2816), V3 +8.9 (cumulative +238.1)
+[ Info: Variance change at n=480; largest: V24 -669.6 (cumulative -9780), V4 -265.8 (cumulative -3082), V3 +8.819 (cumulative +246.9)
+[ Info: Repeat cycle and add the 480-th instance to the dataset
+[ Info: Variance change at n=481; largest: V24 -595 (cumulative -1.038e+04), V4 -258.2 (cumulative -3340), V3 +8.738 (cumulative +255.6)
+[ Info: Variance change at n=482; largest: V24 -544.2 (cumulative -1.092e+04), V4 -226.5 (cumulative -3566), V3 +8.658 (cumulative +264.3)
+[ Info: Variance change at n=483; largest: V24 -579.5 (cumulative -1.15e+04), V4 -228.7 (cumulative -3795), V3 +8.579 (cumulative +272.9)
+[ Info: Variance change at n=484; largest: V24 -668.1 (cumulative -1.217e+04), V4 -259.9 (cumulative -4055), V3 +8.501 (cumulative +281.4)
+[ Info: Variance change at n=485; largest: V24 -597.3 (cumulative -1.276e+04), V4 -253.8 (cumulative -4309), V3 +8.423 (cumulative +289.8)
+[ Info: Repeat cycle and add the 485-th instance to the dataset
+[ Info: The negation of the constraint is UNSAT; thus, the entire formula is SAT and the model is certified.
+[ Info: SyntaxBranch: V1 ≥ 27.45 ∧ V1 ≤ 28.09 ∧ V3 ≥ 167.0 ∧ V3 ≤ 170.0
+[ Info: SyntaxBranch: [Or] ≥ 1 ∧ [Or] ≤ 1
+[ Info: Variance change at n=456; largest: V24 -577.1 (cumulative -577.1), V4 -267.4 (cumulative -267.4), V3 +11.09 (cumulative +11.09)
+[ Info: Variance change at n=457; largest: V24 -586 (cumulative -1163), V4 -250.4 (cumulative -517.8), V3 +10.99 (cumulative +22.08)
+[ Info: Variance change at n=458; largest: V24 -414.7 (cumulative -1578), V4 -197.5 (cumulative -715.3), V3 +10.89 (cumulative +32.97)
+[ Info: Variance change at n=459; largest: V24 -643.8 (cumulative -2222), V4 -264.8 (cumulative -980.1), V3 +10.79 (cumulative +43.76)
+[ Info: Variance change at n=460; largest: V24 -467.8 (cumulative -2689), V4 -207.3 (cumulative -1187), V3 +10.69 (cumulative +54.45)
+[ Info: Repeat cycle and add the 460-th instance to the dataset
+[ Info: Variance change at n=461; largest: V24 -635.1 (cumulative -3324), V4 -262 (cumulative -1449), V3 +10.59 (cumulative +65.04)
+[ Info: Variance change at n=462; largest: V24 -589 (cumulative -3913), V4 -255.6 (cumulative -1705), V3 +10.49 (cumulative +75.54)
+[ Info: Variance change at n=463; largest: V24 -591.1 (cumulative -4505), V4 -250.7 (cumulative -1956), V3 +10.4 (cumulative +85.93)
+[ Info: Variance change at n=464; largest: V24 -629.2 (cumulative -5134), V4 -254.2 (cumulative -2210), V3 +10.3 (cumulative +96.23)
+[ Info: Variance change at n=465; largest: V24 -539.6 (cumulative -5673), V4 -236.9 (cumulative -2447), V3 +10.21 (cumulative +106.4)
+[ Info: Repeat cycle and add the 465-th instance to the dataset
+[ Info: Variance change at n=466; largest: V24 -624.1 (cumulative -6297), V4 -257.2 (cumulative -2704), V3 +10.11 (cumulative +116.5)
+[ Info: Variance change at n=467; largest: V24 -603.1 (cumulative -6901), V4 -251 (cumulative -2955), V3 +10.02 (cumulative +126.6)
+[ Info: Variance change at n=468; largest: V24 -618.8 (cumulative -7519), V4 -254.8 (cumulative -3210), V3 +9.927 (cumulative +136.5)
+[ Info: Variance change at n=469; largest: V24 -615.8 (cumulative -8135), V4 -251.6 (cumulative -3461), V3 +9.836 (cumulative +146.3)
+[ Info: Variance change at n=470; largest: V24 -613.5 (cumulative -8749), V4 -247.8 (cumulative -3709), V3 +9.746 (cumulative +156.1)
+[ Info: Repeat cycle and add the 470-th instance to the dataset
+[ Info: Variance change at n=471; largest: V24 -292.8 (cumulative -9042), V4 -107.2 (cumulative -3816), V3 +9.656 (cumulative +165.7)
+[ Info: Variance change at n=472; largest: V24 -399.3 (cumulative -9441), V4 -137.9 (cumulative -3954), V3 +9.568 (cumulative +175.3)
+[ Info: Variance change at n=473; largest: V24 -361 (cumulative -9802), V4 -150.4 (cumulative -4105), V3 +9.48 (cumulative +184.8)
+[ Info: Variance change at n=474; largest: V24 -313.6 (cumulative -1.012e+04), V4 -123.4 (cumulative -4228), V3 +9.394 (cumulative +194.2)
+[ Info: Variance change at n=475; largest: V24 -435.1 (cumulative -1.055e+04), V4 -199 (cumulative -4427), V3 +9.308 (cumulative +203.5)
+[ Info: Repeat cycle and add the 475-th instance to the dataset
+[ Info: Variance change at n=476; largest: V24 -238.8 (cumulative -1.079e+04), V4 -86.25 (cumulative -4513), V3 +9.223 (cumulative +212.7)
+[ Info: Variance change at n=477; largest: V24 -457.5 (cumulative -1.125e+04), V4 -210 (cumulative -4723), V3 +9.138 (cumulative +221.8)
+[ Info: Variance change at n=478; largest: V24 -522.6 (cumulative -1.177e+04), V4 -235.9 (cumulative -4959), V3 +9.055 (cumulative +230.9)
+[ Info: Variance change at n=479; largest: V24 -363.2 (cumulative -1.213e+04), V4 -151.8 (cumulative -5111), V3 +8.972 (cumulative +239.9)
+[ Info: Variance change at n=480; largest: V24 -487.1 (cumulative -1.262e+04), V4 -193.8 (cumulative -5305), V3 +8.891 (cumulative +248.8)
+[ Info: Repeat cycle and add the 480-th instance to the dataset
+[ Info: Variance change at n=481; largest: V24 -490.8 (cumulative -1.311e+04), V4 -204.9 (cumulative -5510), V3 +8.81 (cumulative +257.6)
+[ Info: Variance change at n=482; largest: V24 -557.3 (cumulative -1.367e+04), V4 -219.6 (cumulative -5729), V3 +8.729 (cumulative +266.3)
+[ Info: Variance change at n=483; largest: V24 -283.5 (cumulative -1.395e+04), V4 -83.53 (cumulative -5813), V3 +8.65 (cumulative +275)
+[ Info: Variance change at n=484; largest: V24 -448.2 (cumulative -1.44e+04), V4 -170.7 (cumulative -5983), V3 +8.571 (cumulative +283.5)
+[ Info: Variance change at n=485; largest: V24 -492.4 (cumulative -1.489e+04), V4 -195.7 (cumulative -6179), V3 +8.493 (cumulative +292)
+[ Info: Repeat cycle and add the 485-th instance to the dataset
+[ Info: Variance change at n=486; largest: V24 -564.6 (cumulative -1.546e+04), V4 -239 (cumulative -6418), V3 +8.416 (cumulative +300.4)
+[ Info: Variance change at n=487; largest: V24 -571.4 (cumulative -1.603e+04), V4 -211.1 (cumulative -6629), V3 +8.339 (cumulative +308.8)
+[ Info: Variance change at n=488; largest: V24 -577.4 (cumulative -1.661e+04), V4 -237.1 (cumulative -6866), V3 +8.264 (cumulative +317)
+[ Info: Variance change at n=489; largest: V24 -530.3 (cumulative -1.714e+04), V4 -222.8 (cumulative -7089), V3 +8.189 (cumulative +325.2)
+[ Info: Variance change at n=490; largest: V24 -570.6 (cumulative -1.771e+04), V4 -231.2 (cumulative -7320), V3 +8.114 (cumulative +333.3)
+[ Info: Repeat cycle and add the 490-th instance to the dataset
+[ Info: The negation of the constraint is UNSAT; thus, the entire formula is SAT and the model is certified.
+B
+First cor: 0.9614864864864865; Cert cor: 0.9807432432432432

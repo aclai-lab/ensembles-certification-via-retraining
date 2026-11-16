@@ -1,0 +1,20 @@
+(numtrees = 16, maxdepth = 5, batchsize = 1, lcomplexity = 2, rcomplexity = 1, tottime = 5095.80895181, convtime = 12.193692708999997, numcycles = 210, metricpre = 1.0, metricpost = 0.8222222222222223)
+SyntaxBranch: V35 ≥ 1 ∧ V35 ≤ 1 ∧ V34 ≥ 0 ∧ V34 ≤ 0 → [Or] ≥ 4 ∧ [Or] ≤ 4
+(numtrees = 16, maxdepth = 5, batchsize = 1, lcomplexity = 2, rcomplexity = 1, tottime = 4051.797958998, convtime = 11.640068694999997, numcycles = 203, metricpre = 0.3111111111111111, metricpost = 0.5)
+SyntaxBranch: V35 ≥ 1 ∧ V35 ≤ 1 ∧ V34 ≥ 0 ∧ V34 ≤ 0 → [Or] ≥ 4 ∧ [Or] ≤ 4
+(numtrees = 16, maxdepth = 5, batchsize = 1, lcomplexity = 2, rcomplexity = 1, tottime = 2814.852635436, convtime = 9.624751104, numcycles = 173, metricpre = 0.903030303030303, metricpost = 0.903030303030303)
+SyntaxBranch: V35 ≥ 1 ∧ V35 ≤ 1 ∧ V34 ≥ 0 ∧ V34 ≤ 0 → [Or] ≥ 4 ∧ [Or] ≤ 4
+(numtrees = 16, maxdepth = 5, batchsize = 1, lcomplexity = 2, rcomplexity = 1, tottime = 1380.061021898, convtime = 6.921823063999999, numcycles = 121, metricpre = 0.903030303030303, metricpost = 0.903030303030303)
+SyntaxBranch: V35 ≥ 1 ∧ V35 ≤ 1 ∧ V34 ≥ 0 ∧ V34 ≤ 0 → [Or] ≥ 4 ∧ [Or] ≤ 4
+(numtrees = 16, maxdepth = 5, batchsize = 1, lcomplexity = 2, rcomplexity = 1, tottime = 3008.642613045, convtime = 9.909982409999998, numcycles = 172, metricpre = 0.8412698412698413, metricpost = 1.0)
+SyntaxBranch: V35 ≥ 1 ∧ V35 ≤ 1 ∧ V34 ≥ 0 ∧ V34 ≤ 0 → [Or] ≥ 4 ∧ [Or] ≤ 4
+(numtrees = 16, maxdepth = 5, batchsize = 1, lcomplexity = 2, rcomplexity = 1, tottime = 4304.117225769, convtime = 10.688513949000004, numcycles = 187, metricpre = 1.0, metricpost = 1.0)
+SyntaxBranch: V35 ≥ 1 ∧ V35 ≤ 1 ∧ V34 ≥ 0 ∧ V34 ≤ 0 → [Or] ≥ 4 ∧ [Or] ≤ 4
+(numtrees = 16, maxdepth = 5, batchsize = 1, lcomplexity = 2, rcomplexity = 1, tottime = 6868.246448961, convtime = 13.451465669999992, numcycles = 241, metricpre = 1.0, metricpost = 1.0)
+SyntaxBranch: V35 ≥ 1 ∧ V35 ≤ 1 ∧ V34 ≥ 0 ∧ V34 ≤ 0 → [Or] ≥ 4 ∧ [Or] ≤ 4
+(numtrees = 16, maxdepth = 5, batchsize = 1, lcomplexity = 2, rcomplexity = 1, tottime = 4183.642680171, convtime = 10.927105154999996, numcycles = 186, metricpre = 0.6518518518518519, metricpost = 1.0)
+SyntaxBranch: V35 ≥ 1 ∧ V35 ≤ 1 ∧ V34 ≥ 0 ∧ V34 ≤ 0 → [Or] ≥ 4 ∧ [Or] ≤ 4
+(numtrees = 16, maxdepth = 5, batchsize = 1, lcomplexity = 2, rcomplexity = 1, tottime = 4443.748643709, convtime = 11.599700821999996, numcycles = 211, metricpre = 1.0, metricpost = 1.0)
+SyntaxBranch: V35 ≥ 1 ∧ V35 ≤ 1 ∧ V34 ≥ 0 ∧ V34 ≤ 0 → [Or] ≥ 4 ∧ [Or] ≤ 4
+(numtrees = 16, maxdepth = 5, batchsize = 1, lcomplexity = 2, rcomplexity = 1, tottime = 3345.71734805, convtime = 9.646801229000003, numcycles = 168, metricpre = 1.0, metricpost = 1.0)
+SyntaxBranch: V35 ≥ 1 ∧ V35 ≤ 1 ∧ V34 ≥ 0 ∧ V34 ≤ 0 → [Or] ≥ 4 ∧ [Or] ≤ 4

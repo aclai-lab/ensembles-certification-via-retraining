@@ -1,0 +1,14 @@
+(numtrees = 16, maxdepth = 5, batchsize = 1, lcomplexity = 2, rcomplexity = 1, tottime = 124.642670398, convtime = 2.842103651000001, numcycles = 55, metricpre = 0.9811507936507937, metricpost = 0.9623015873015872)
+SyntaxBranch: V1 ≥ 27.45 ∧ V1 ≤ 28.09 ∧ V3 ≥ 167.0 ∧ V3 ≤ 170.0 → [Or] ≥ 1 ∧ [Or] ≤ 1
+(numtrees = 16, maxdepth = 5, batchsize = 1, lcomplexity = 2, rcomplexity = 1, tottime = 120.173843562, convtime = 2.704604248, numcycles = 57, metricpre = 0.9359910162829872, metricpost = 0.9449275362318841)
+SyntaxBranch: V1 ≥ 27.45 ∧ V1 ≤ 28.09 ∧ V3 ≥ 167.0 ∧ V3 ≤ 170.0 → [Or] ≥ 1 ∧ [Or] ≤ 1
+(numtrees = 16, maxdepth = 5, batchsize = 1, lcomplexity = 2, rcomplexity = 1, tottime = 160.945277347, convtime = 3.7484468079999997, numcycles = 79, metricpre = 0.9415384615384614, metricpost = 0.9329805996472664)
+SyntaxBranch: V1 ≥ 27.45 ∧ V1 ≤ 28.09 ∧ V3 ≥ 167.0 ∧ V3 ≤ 170.0 → [Or] ≥ 1 ∧ [Or] ≤ 1
+(numtrees = 16, maxdepth = 5, batchsize = 1, lcomplexity = 2, rcomplexity = 1, tottime = 92.831404327, convtime = 2.0197654770000004, numcycles = 47, metricpre = 0.9349474199070678, metricpost = 0.9163609684519443)
+SyntaxBranch: V1 ≥ 27.45 ∧ V1 ≤ 28.09 ∧ V3 ≥ 167.0 ∧ V3 ≤ 170.0 → [Or] ≥ 1 ∧ [Or] ≤ 1
+(numtrees = 16, maxdepth = 5, batchsize = 1, lcomplexity = 2, rcomplexity = 1, tottime = 126.424837646, convtime = 2.930719156, numcycles = 64, metricpre = 0.9407894736842106, metricpost = 0.9304575163398694)
+SyntaxBranch: V1 ≥ 27.45 ∧ V1 ≤ 28.09 ∧ V3 ≥ 167.0 ∧ V3 ≤ 170.0 → [Or] ≥ 1 ∧ [Or] ≤ 1
+(numtrees = 16, maxdepth = 5, batchsize = 1, lcomplexity = 2, rcomplexity = 1, tottime = 99.416435121, convtime = 2.215900002, numcycles = 52, metricpre = 0.9648690292758089, metricpost = 0.9296296296296296)
+SyntaxBranch: V1 ≥ 27.45 ∧ V1 ≤ 28.09 ∧ V3 ≥ 167.0 ∧ V3 ≤ 170.0 → [Or] ≥ 1 ∧ [Or] ≤ 1
+(numtrees = 16, maxdepth = 5, batchsize = 1, lcomplexity = 2, rcomplexity = 1, tottime = 77.661351311, convtime = 1.7773282869999996, numcycles = 42, metricpre = 0.9407894736842106, metricpost = 0.9407894736842106)
+SyntaxBranch: V1 ≥ 27.45 ∧ V1 ≤ 28.09 ∧ V3 ≥ 167.0 ∧ V3 ≤ 170.0 → [Or] ≥ 1 ∧ [Or] ≤ 1

@@ -1,0 +1,318 @@
+A model of type DecisionEnsemble{String, DecisionList{String}, SoleModels.var"#103#104"{SoleModels.var"#105#106"{SoleModels.var"#107#108"}}, Nothing} returned
+B
+First cor: 0.9047619047619048; Cert cor: 0.9047619047619048
+A model of type DecisionEnsemble{String, DecisionList{String}, SoleModels.var"#103#104"{SoleModels.var"#105#106"{SoleModels.var"#107#108"}}, Nothing} returned
+[ Info: SyntaxBranch: V4 ≥ 0.65 ∧ V4 ≤ 0.95
+[ Info: SyntaxBranch: [Or] ≥ 1 ∧ [Or] ≤ 1
+[ Info: Variance change at n=121; largest: V4 -0.002461 (cumulative -0.002461), V3 +0.002398 (cumulative +0.002398), V2 -0.001546 (cumulative -0.001546)
+[ Info: Variance change at n=122; largest: V4 -0.002457 (cumulative -0.004918), V2 -0.001543 (cumulative -0.003088), V1 +0.001332 (cumulative +0.001283)
+[ Info: Variance change at n=123; largest: V3 -0.009265 (cumulative -0.007951), V4 -0.002453 (cumulative -0.007371), V2 -0.001518 (cumulative -0.004606)
+[ Info: Variance change at n=124; largest: V1 -0.002735 (cumulative -0.001717), V4 -0.002447 (cumulative -0.009819), V3 -0.001717 (cumulative -0.009668)
+[ Info: Variance change at n=125; largest: V3 +0.003752 (cumulative -0.005916), V1 +0.002589 (cumulative +0.0008721), V4 -0.002441 (cumulative -0.01226)
+[ Info: Repeat cycle and add the 125-th instance to the dataset
+[ Info: Variance change at n=126; largest: V3 +0.003227 (cumulative -0.002689), V4 -0.002435 (cumulative -0.0147), V2 -0.0009077 (cumulative -0.00827)
+[ Info: Variance change at n=127; largest: V3 +0.002726 (cumulative +3.717e-05), V4 -0.002428 (cumulative -0.01712), V1 +0.002293 (cumulative +0.002642)
+[ Info: Variance change at n=128; largest: V4 -0.00242 (cumulative -0.01954), V2 -0.00139 (cumulative -0.01089), V1 -0.000714 (cumulative +0.001928)
+[ Info: Variance change at n=129; largest: V3 -0.01269 (cumulative -0.01326), V1 -0.002964 (cumulative -0.001036), V4 -0.002411 (cumulative -0.02195)
+[ Info: Variance change at n=130; largest: V3 +0.01088 (cumulative -0.002383), V1 -0.004498 (cumulative -0.005534), V4 -0.002403 (cumulative -0.02436)
+[ Info: Repeat cycle and add the 130-th instance to the dataset
+[ Info: Variance change at n=131; largest: V4 -0.003922 (cumulative -0.02828), V3 -0.001646 (cumulative -0.004029), V2 -0.001334 (cumulative -0.01429)
+[ Info: Variance change at n=132; largest: V3 -0.004501 (cumulative -0.00853), V4 -0.003866 (cumulative -0.03215), V2 -0.001323 (cumulative -0.01561)
+[ Info: Variance change at n=133; largest: V3 -0.01132 (cumulative -0.01985), V4 -0.003812 (cumulative -0.03596), V2 -0.001303 (cumulative -0.01692)
+[ Info: Variance change at n=134; largest: V3 -0.004844 (cumulative -0.02469), V4 -0.003758 (cumulative -0.03971), V1 -0.003019 (cumulative -0.009897)
+[ Info: Variance change at n=135; largest: V4 -0.003705 (cumulative -0.04342), V1 +0.001571 (cumulative -0.008326), V2 -0.001097 (cumulative -0.0193)
+[ Info: Repeat cycle and add the 135-th instance to the dataset
+[ Info: Variance change at n=136; largest: V3 -0.02223 (cumulative -0.04697), V1 -0.005012 (cumulative -0.01334), V4 -0.002211 (cumulative -0.04563)
+[ Info: Variance change at n=137; largest: V3 -0.02318 (cumulative -0.07015), V1 -0.005211 (cumulative -0.01855), V4 -0.002203 (cumulative -0.04783)
+[ Info: Variance change at n=138; largest: V3 -0.02288 (cumulative -0.09302), V1 -0.004466 (cumulative -0.02301), V4 -0.002194 (cumulative -0.05003)
+[ Info: Variance change at n=139; largest: V3 -0.02232 (cumulative -0.1153), V1 -0.005071 (cumulative -0.02809), V4 -0.002185 (cumulative -0.05221)
+[ Info: Variance change at n=140; largest: V3 -0.02219 (cumulative -0.1375), V1 -0.003809 (cumulative -0.03189), V4 -0.002176 (cumulative -0.05439)
+[ Info: Repeat cycle and add the 140-th instance to the dataset
+[ Info: Variance change at n=141; largest: V3 +0.01812 (cumulative -0.1194), V1 +0.008355 (cumulative -0.02354), V4 -0.002167 (cumulative -0.05656)
+[ Info: Variance change at n=142; largest: V3 +0.01094 (cumulative -0.1085), V1 +0.01004 (cumulative -0.0135), V4 -0.002157 (cumulative -0.05871)
+[ Info: Variance change at n=143; largest: V1 +0.005901 (cumulative -0.007596), V4 -0.002147 (cumulative -0.06086), V3 +0.001963 (cumulative -0.1065)
+[ Info: Variance change at n=144; largest: V3 +0.00422 (cumulative -0.1023), V1 +0.004005 (cumulative -0.003591), V4 -0.002137 (cumulative -0.063)
+[ Info: Variance change at n=145; largest: V1 +0.01573 (cumulative +0.01214), V3 +0.009372 (cumulative -0.09292), V4 -0.002126 (cumulative -0.06512)
+[ Info: Repeat cycle and add the 145-th instance to the dataset
+[ Info: Variance change at n=146; largest: V3 -0.02146 (cumulative -0.1144), V1 -0.003645 (cumulative +0.00849), V4 -0.002116 (cumulative -0.06724)
+[ Info: Variance change at n=147; largest: V3 -0.0211 (cumulative -0.1355), V1 -0.004188 (cumulative +0.004302), V4 -0.002105 (cumulative -0.06934)
+[ Info: Variance change at n=148; largest: V3 -0.02062 (cumulative -0.1561), V1 -0.003579 (cumulative +0.0007227), V4 -0.002094 (cumulative -0.07144)
+[ Info: Variance change at n=149; largest: V3 -0.0195 (cumulative -0.1756), V1 -0.00355 (cumulative -0.002828), V4 -0.002083 (cumulative -0.07352)
+[ Info: Variance change at n=150; largest: V3 -0.02033 (cumulative -0.1959), V1 -0.004769 (cumulative -0.007597), V4 -0.002072 (cumulative -0.07559)
+[ Info: Repeat cycle and add the 150-th instance to the dataset
+[ Info: Variance change at n=151; largest: V3 -0.01683 (cumulative -0.2128), V1 +0.002572 (cumulative -0.005025), V4 -0.002061 (cumulative -0.07765)
+[ Info: Variance change at n=152; largest: V3 -0.01665 (cumulative -0.2294), V2 +0.002131 (cumulative -0.0169), V4 -0.002049 (cumulative -0.0797)
+[ Info: Variance change at n=153; largest: V3 -0.01319 (cumulative -0.2426), V4 -0.002038 (cumulative -0.08174), V2 +0.0004938 (cumulative -0.0164)
+[ Info: Variance change at n=154; largest: V3 -0.01762 (cumulative -0.2602), V1 +0.002242 (cumulative -0.001809), V4 -0.002026 (cumulative -0.08377)
+[ Info: Variance change at n=155; largest: V3 -0.0189 (cumulative -0.2791), V1 -0.003568 (cumulative -0.005377), V4 -0.002015 (cumulative -0.08578)
+[ Info: Repeat cycle and add the 155-th instance to the dataset
+[ Info: Variance change at n=156; largest: V3 +0.01549 (cumulative -0.2636), V1 +0.007256 (cumulative +0.001879), V4 -0.002003 (cumulative -0.08779)
+[ Info: Variance change at n=157; largest: V3 +0.009251 (cumulative -0.2544), V1 +0.008806 (cumulative +0.01069), V4 -0.001992 (cumulative -0.08978)
+[ Info: Variance change at n=158; largest: V1 +0.005107 (cumulative +0.01579), V4 -0.00198 (cumulative -0.09176), V3 +0.001423 (cumulative -0.253)
+[ Info: Variance change at n=159; largest: V3 +0.00345 (cumulative -0.2495), V1 +0.003419 (cumulative +0.01921), V4 -0.001968 (cumulative -0.09373)
+[ Info: Variance change at n=160; largest: V1 +0.01403 (cumulative +0.03324), V3 +0.008042 (cumulative -0.2415), V4 -0.001956 (cumulative -0.09568)
+[ Info: Repeat cycle and add the 160-th instance to the dataset
+[ Info: Variance change at n=161; largest: V3 +0.02514 (cumulative -0.2163), V1 +0.01363 (cumulative +0.04687), V2 +0.003041 (cumulative -0.01698)
+[ Info: Variance change at n=162; largest: V1 +0.01771 (cumulative +0.06458), V3 +0.01509 (cumulative -0.2013), V2 +0.002953 (cumulative -0.01402)
+[ Info: Variance change at n=163; largest: V3 +0.006501 (cumulative -0.1948), V1 +0.00389 (cumulative +0.06847), V4 -0.001921 (cumulative -0.1015)
+[ Info: Variance change at n=164; largest: V1 +0.003735 (cumulative +0.0722), V3 +0.00373 (cumulative -0.191), V4 -0.001909 (cumulative -0.1034)
+[ Info: Variance change at n=165; largest: V3 -0.002934 (cumulative -0.194), V1 -0.002092 (cumulative +0.07011), V4 -0.001897 (cumulative -0.1053)
+[ Info: Repeat cycle and add the 165-th instance to the dataset
+[ Info: Variance change at n=166; largest: V3 -0.01735 (cumulative -0.2113), V1 -0.002609 (cumulative +0.0675), V4 -0.001886 (cumulative -0.1072)
+[ Info: Variance change at n=167; largest: V3 -0.01715 (cumulative -0.2285), V1 -0.003835 (cumulative +0.06367), V4 -0.001874 (cumulative -0.109)
+[ Info: Variance change at n=168; largest: V3 -0.01782 (cumulative -0.2463), V1 -0.003801 (cumulative +0.05987), V4 -0.001862 (cumulative -0.1109)
+[ Info: Variance change at n=169; largest: V3 -0.01757 (cumulative -0.2638), V1 -0.004193 (cumulative +0.05567), V4 -0.00185 (cumulative -0.1128)
+[ Info: Variance change at n=170; largest: V3 -0.01381 (cumulative -0.2777), V1 -0.00373 (cumulative +0.05194), V4 -0.001838 (cumulative -0.1146)
+[ Info: Repeat cycle and add the 170-th instance to the dataset
+[ Info: Variance change at n=171; largest: V3 -0.01495 (cumulative -0.2926), V2 +0.004873 (cumulative -0.01426), V4 -0.001827 (cumulative -0.1164)
+[ Info: Variance change at n=172; largest: V3 -0.01313 (cumulative -0.3057), V4 -0.001815 (cumulative -0.1182), V2 +0.001795 (cumulative -0.01247)
+[ Info: Variance change at n=173; largest: V3 -0.01302 (cumulative -0.3188), V1 +0.002291 (cumulative +0.05665), V4 -0.001803 (cumulative -0.12)
+[ Info: Variance change at n=174; largest: V3 -0.01661 (cumulative -0.3354), V1 -0.00324 (cumulative +0.05341), V4 -0.001792 (cumulative -0.1218)
+[ Info: Variance change at n=175; largest: V3 -0.01595 (cumulative -0.3513), V1 -0.003218 (cumulative +0.05019), V4 -0.00178 (cumulative -0.1236)
+[ Info: Repeat cycle and add the 175-th instance to the dataset
+[ Info: Variance change at n=176; largest: V3 -0.01421 (cumulative -0.3655), V2 +0.004443 (cumulative -0.004404), V4 -0.001769 (cumulative -0.1254)
+[ Info: Variance change at n=177; largest: V3 -0.01248 (cumulative -0.378), V4 -0.001757 (cumulative -0.1271), V2 +0.001531 (cumulative -0.002873)
+[ Info: Variance change at n=178; largest: V3 -0.01238 (cumulative -0.3904), V1 +0.001961 (cumulative +0.05399), V4 -0.001746 (cumulative -0.1289)
+[ Info: Variance change at n=179; largest: V3 -0.01576 (cumulative -0.4062), V1 -0.003254 (cumulative +0.05074), V4 -0.001735 (cumulative -0.1306)
+[ Info: Variance change at n=180; largest: V3 -0.01515 (cumulative -0.4213), V1 -0.003231 (cumulative +0.04751), V4 -0.001723 (cumulative -0.1323)
+[ Info: Repeat cycle and add the 180-th instance to the dataset
+[ Info: Variance change at n=181; largest: V3 +0.0111 (cumulative -0.4102), V2 +0.002824 (cumulative +0.002905), V4 -0.001712 (cumulative -0.1341)
+[ Info: Variance change at n=182; largest: V3 +0.01837 (cumulative -0.3918), V2 +0.002751 (cumulative +0.005656), V4 -0.001701 (cumulative -0.1358)
+[ Info: Variance change at n=183; largest: V3 +0.02055 (cumulative -0.3713), V2 +0.002679 (cumulative +0.008335), V4 -0.00169 (cumulative -0.1374)
+[ Info: Variance change at n=184; largest: V3 +0.01994 (cumulative -0.3513), V2 +0.001768 (cumulative +0.0101), V4 -0.001679 (cumulative -0.1391)
+[ Info: Variance change at n=185; largest: V3 +0.01407 (cumulative -0.3373), V2 +0.003491 (cumulative +0.01359), V1 -0.002691 (cumulative +0.04339)
+[ Info: Repeat cycle and add the 185-th instance to the dataset
+[ Info: The negation of the constraint is UNSAT; thus, the entire formula is SAT and the model is certified.
+[ Info: SyntaxBranch: V4 ≥ 0.65 ∧ V4 ≤ 0.95
+[ Info: SyntaxBranch: [Or] ≥ 1 ∧ [Or] ≤ 1
+[ Info: Variance change at n=121; largest: V3 -0.02566 (cumulative -0.02566), V1 -0.004973 (cumulative -0.004973), V4 -0.002549 (cumulative -0.002549)
+[ Info: Variance change at n=122; largest: V3 -0.02531 (cumulative -0.05097), V1 -0.004904 (cumulative -0.009877), V4 -0.002546 (cumulative -0.005095)
+[ Info: Variance change at n=123; largest: V3 -0.02417 (cumulative -0.07514), V1 -0.004836 (cumulative -0.01471), V2 +0.00273 (cumulative +0.006222)
+[ Info: Variance change at n=124; largest: V3 -0.02419 (cumulative -0.09933), V1 -0.005178 (cumulative -0.01989), V4 -0.002536 (cumulative -0.01017)
+[ Info: Variance change at n=125; largest: V3 -0.02377 (cumulative -0.1231), V1 -0.005342 (cumulative -0.02523), V4 -0.002529 (cumulative -0.0127)
+[ Info: Repeat cycle and add the 125-th instance to the dataset
+[ Info: Variance change at n=126; largest: V1 +0.004251 (cumulative -0.02098), V4 -0.002523 (cumulative -0.01522), V2 -0.001549 (cumulative +0.005073)
+[ Info: Variance change at n=127; largest: V3 -0.008477 (cumulative -0.1325), V1 +0.004033 (cumulative -0.01695), V4 -0.002515 (cumulative -0.01774)
+[ Info: Variance change at n=128; largest: V4 -0.002507 (cumulative -0.02025), V1 +0.002212 (cumulative -0.01474), V2 -0.00155 (cumulative +0.001997)
+[ Info: Variance change at n=129; largest: V3 +0.003652 (cumulative -0.1276), V4 -0.002499 (cumulative -0.02274), V2 -0.001478 (cumulative +0.0005194)
+[ Info: Variance change at n=130; largest: V3 +0.0061 (cumulative -0.1215), V1 +0.003505 (cumulative -0.0106), V4 -0.00249 (cumulative -0.02523)
+[ Info: Repeat cycle and add the 130-th instance to the dataset
+[ Info: Variance change at n=131; largest: V3 -0.01877 (cumulative -0.1402), V1 -0.004261 (cumulative -0.01486), V2 +0.003658 (cumulative +0.002923)
+[ Info: Variance change at n=132; largest: V3 -0.01957 (cumulative -0.1598), V1 -0.003595 (cumulative -0.01846), V4 -0.00247 (cumulative -0.03018)
+[ Info: Variance change at n=133; largest: V3 -0.02183 (cumulative -0.1816), V1 -0.004931 (cumulative -0.02339), V2 +0.003414 (cumulative +0.008704)
+[ Info: Variance change at n=134; largest: V3 -0.01081 (cumulative -0.1925), V1 -0.003508 (cumulative -0.0269), V4 -0.002449 (cumulative -0.03509)
+[ Info: Variance change at n=135; largest: V3 -0.02129 (cumulative -0.2137), V1 -0.004053 (cumulative -0.03095), V4 -0.002438 (cumulative -0.03753)
+[ Info: Repeat cycle and add the 135-th instance to the dataset
+[ Info: Variance change at n=136; largest: V3 -0.02129 (cumulative -0.235), V1 -0.004006 (cumulative -0.03495), V4 -0.00386 (cumulative -0.04139)
+[ Info: Variance change at n=137; largest: V3 -0.02092 (cumulative -0.256), V1 -0.00396 (cumulative -0.03891), V4 -0.003806 (cumulative -0.0452)
+[ Info: Variance change at n=138; largest: V3 -0.02037 (cumulative -0.2763), V1 -0.003915 (cumulative -0.04283), V4 -0.003754 (cumulative -0.04895)
+[ Info: Variance change at n=139; largest: V3 -0.0203 (cumulative -0.2966), V1 -0.004289 (cumulative -0.04712), V4 -0.003702 (cumulative -0.05265)
+[ Info: Variance change at n=140; largest: V3 -0.01946 (cumulative -0.3161), V1 -0.004504 (cumulative -0.05162), V4 -0.003652 (cumulative -0.0563)
+[ Info: Repeat cycle and add the 140-th instance to the dataset
+[ Info: Variance change at n=141; largest: V3 +0.01432 (cumulative -0.3018), V4 -0.002247 (cumulative -0.05855), V2 -0.001485 (cumulative +0.01335)
+[ Info: Variance change at n=142; largest: V3 +0.01678 (cumulative -0.285), V4 -0.002237 (cumulative -0.06079), V1 +0.001577 (cumulative -0.04964)
+[ Info: Variance change at n=143; largest: V3 +0.01604 (cumulative -0.2689), V4 -0.002227 (cumulative -0.06302), V1 +0.001469 (cumulative -0.04817)
+[ Info: Variance change at n=144; largest: V3 +0.01532 (cumulative -0.2536), V4 -0.002216 (cumulative -0.06523), V1 +0.001366 (cumulative -0.0468)
+[ Info: Variance change at n=145; largest: V3 +0.01777 (cumulative -0.2359), V1 +0.002595 (cumulative -0.04421), V4 -0.002205 (cumulative -0.06744)
+[ Info: Repeat cycle and add the 145-th instance to the dataset
+[ Info: Variance change at n=146; largest: V3 +0.03736 (cumulative -0.1985), V1 +0.01757 (cumulative -0.02664), V4 -0.002194 (cumulative -0.06963)
+[ Info: Variance change at n=147; largest: V1 +0.01952 (cumulative -0.007118), V3 +0.01828 (cumulative -0.1802), V4 -0.002183 (cumulative -0.07181)
+[ Info: Variance change at n=148; largest: V3 +0.01752 (cumulative -0.1627), V1 +0.01196 (cumulative +0.004846), V4 -0.002172 (cumulative -0.07399)
+[ Info: Variance change at n=149; largest: V3 +0.007991 (cumulative -0.1547), V1 +0.007667 (cumulative +0.01251), V4 -0.002161 (cumulative -0.07615)
+[ Info: Variance change at n=150; largest: V3 +0.01028 (cumulative -0.1444), V1 +0.005668 (cumulative +0.01818), V4 -0.002149 (cumulative -0.0783)
+[ Info: Repeat cycle and add the 150-th instance to the dataset
+[ Info: Variance change at n=151; largest: V3 +0.004431 (cumulative -0.14), V4 -0.002137 (cumulative -0.08043), V2 -0.0006082 (cumulative +0.0007698)
+[ Info: Variance change at n=152; largest: V3 +0.009304 (cumulative -0.1307), V4 -0.002126 (cumulative -0.08256), V1 +0.001046 (cumulative +0.01917)
+[ Info: Variance change at n=153; largest: V3 +0.003632 (cumulative -0.1271), V1 +0.002237 (cumulative +0.02141), V4 -0.002114 (cumulative -0.08467)
+[ Info: Variance change at n=154; largest: V4 -0.002102 (cumulative -0.08678), V2 -0.001168 (cumulative -0.002322), V3 +0.0009262 (cumulative -0.1261)
+[ Info: Variance change at n=155; largest: V3 -0.009061 (cumulative -0.1352), V1 -0.002179 (cumulative +0.01895), V4 -0.00209 (cumulative -0.08887)
+[ Info: Repeat cycle and add the 155-th instance to the dataset
+[ Info: Variance change at n=156; largest: V3 -0.01826 (cumulative -0.1535), V1 -0.004366 (cumulative +0.01458), V4 -0.002078 (cumulative -0.09094)
+[ Info: Variance change at n=157; largest: V3 -0.01867 (cumulative -0.1721), V1 -0.004486 (cumulative +0.0101), V4 -0.002066 (cumulative -0.09301)
+[ Info: Variance change at n=158; largest: V3 -0.01856 (cumulative -0.1907), V1 -0.004429 (cumulative +0.005668), V4 -0.002054 (cumulative -0.09506)
+[ Info: Variance change at n=159; largest: V3 -0.01833 (cumulative -0.209), V1 -0.003909 (cumulative +0.001759), V4 -0.002041 (cumulative -0.0971)
+[ Info: Variance change at n=160; largest: V3 -0.01772 (cumulative -0.2267), V1 -0.004324 (cumulative -0.002564), V4 -0.002029 (cumulative -0.09913)
+[ Info: Repeat cycle and add the 160-th instance to the dataset
+[ Info: Variance change at n=161; largest: V3 +0.03245 (cumulative -0.1943), V1 +0.0162 (cumulative +0.01364), V2 +0.003074 (cumulative -0.001965)
+[ Info: Variance change at n=162; largest: V3 +0.0127 (cumulative -0.1816), V1 +0.006146 (cumulative +0.01979), V4 -0.002005 (cumulative -0.1032)
+[ Info: Variance change at n=163; largest: V3 +0.00951 (cumulative -0.1721), V1 +0.005941 (cumulative +0.02573), V4 -0.001992 (cumulative -0.1051)
+[ Info: Variance change at n=164; largest: V4 -0.00198 (cumulative -0.1071), V3 +0.001918 (cumulative -0.1702), V1 -0.0005995 (cumulative +0.02513)
+[ Info: Variance change at n=165; largest: V4 -0.001968 (cumulative -0.1091), V3 +0.001656 (cumulative -0.1685), V1 -0.000638 (cumulative +0.02449)
+[ Info: Repeat cycle and add the 165-th instance to the dataset
+[ Info: Variance change at n=166; largest: V3 -0.01769 (cumulative -0.1862), V4 -0.001956 (cumulative -0.1111), V1 -0.001228 (cumulative +0.02326)
+[ Info: Variance change at n=167; largest: V3 -0.01701 (cumulative -0.2032), V1 -0.003718 (cumulative +0.01954), V4 -0.001944 (cumulative -0.113)
+[ Info: Variance change at n=168; largest: V3 -0.01591 (cumulative -0.2191), V1 -0.003248 (cumulative +0.0163), V4 -0.001931 (cumulative -0.1149)
+[ Info: Variance change at n=169; largest: V3 -0.0169 (cumulative -0.236), V1 -0.003957 (cumulative +0.01234), V4 -0.001919 (cumulative -0.1168)
+[ Info: Variance change at n=170; largest: V3 -0.01687 (cumulative -0.2529), V1 -0.003608 (cumulative +0.008731), V4 -0.001907 (cumulative -0.1188)
+[ Info: Repeat cycle and add the 170-th instance to the dataset
+[ Info: Variance change at n=171; largest: V3 -0.01606 (cumulative -0.269), V1 -0.003572 (cumulative +0.00516), V4 -0.001895 (cumulative -0.1206)
+[ Info: Variance change at n=172; largest: V3 -0.01604 (cumulative -0.285), V1 -0.003834 (cumulative +0.001326), V4 -0.001883 (cumulative -0.1225)
+[ Info: Variance change at n=173; largest: V3 -0.01612 (cumulative -0.3011), V1 -0.003792 (cumulative -0.002467), V4 -0.001871 (cumulative -0.1244)
+[ Info: Variance change at n=174; largest: V3 -0.01611 (cumulative -0.3172), V1 -0.003928 (cumulative -0.006394), V4 -0.001859 (cumulative -0.1263)
+[ Info: Variance change at n=175; largest: V3 -0.0155 (cumulative -0.3327), V1 -0.003943 (cumulative -0.01034), V4 -0.001847 (cumulative -0.1281)
+[ Info: Repeat cycle and add the 175-th instance to the dataset
+[ Info: Variance change at n=176; largest: V3 -0.01471 (cumulative -0.3474), V2 +0.004336 (cumulative -0.005473), V4 -0.001835 (cumulative -0.1299)
+[ Info: Variance change at n=177; largest: V3 -0.01337 (cumulative -0.3608), V4 -0.001823 (cumulative -0.1318), V2 +0.001453 (cumulative -0.00402)
+[ Info: Variance change at n=178; largest: V3 -0.01324 (cumulative -0.374), V4 -0.001811 (cumulative -0.1336), V1 +0.001673 (cumulative -0.007258)
+[ Info: Variance change at n=179; largest: V3 -0.01521 (cumulative -0.3893), V1 -0.003013 (cumulative -0.01027), V4 -0.001799 (cumulative -0.1354)
+[ Info: Variance change at n=180; largest: V3 -0.01482 (cumulative -0.4041), V1 -0.002989 (cumulative -0.01326), V4 -0.001788 (cumulative -0.1372)
+[ Info: Repeat cycle and add the 180-th instance to the dataset
+[ Info: Variance change at n=181; largest: V1 +0.01447 (cumulative +0.001211), V3 +0.01142 (cumulative -0.3926), V4 -0.001776 (cumulative -0.1389)
+[ Info: Variance change at n=182; largest: V3 +0.02431 (cumulative -0.3683), V1 +0.01218 (cumulative +0.01339), V4 -0.001764 (cumulative -0.1407)
+[ Info: Variance change at n=183; largest: V3 +0.01047 (cumulative -0.3579), V1 +0.00838 (cumulative +0.02177), V4 -0.001753 (cumulative -0.1425)
+[ Info: Variance change at n=184; largest: V1 +0.005135 (cumulative +0.02691), V3 +0.003575 (cumulative -0.3543), V4 -0.001741 (cumulative -0.1442)
+[ Info: Variance change at n=185; largest: V3 +0.005375 (cumulative -0.3489), V1 +0.00365 (cumulative +0.03056), V4 -0.00173 (cumulative -0.1459)
+[ Info: Repeat cycle and add the 185-th instance to the dataset
+[ Info: Variance change at n=186; largest: V3 +0.008355 (cumulative -0.3406), V2 +0.00283 (cumulative -0.003498), V4 -0.001718 (cumulative -0.1476)
+[ Info: Variance change at n=187; largest: V3 +0.01512 (cumulative -0.3254), V2 +0.002758 (cumulative -0.0007398), V4 -0.001707 (cumulative -0.1494)
+[ Info: Variance change at n=188; largest: V3 +0.0172 (cumulative -0.3082), V2 +0.002689 (cumulative +0.001949), V4 -0.001696 (cumulative -0.151)
+[ Info: Variance change at n=189; largest: V3 +0.01668 (cumulative -0.2916), V2 +0.001794 (cumulative +0.003743), V4 -0.001685 (cumulative -0.1527)
+[ Info: Variance change at n=190; largest: V3 +0.01128 (cumulative -0.2803), V2 +0.003488 (cumulative +0.007231), V1 -0.00247 (cumulative +0.02683)
+[ Info: Repeat cycle and add the 190-th instance to the dataset
+[ Info: Variance change at n=191; largest: V3 -0.01298 (cumulative -0.2933), V1 -0.003738 (cumulative +0.0231), V4 -0.001663 (cumulative -0.1561)
+[ Info: Variance change at n=192; largest: V3 -0.01058 (cumulative -0.3038), V1 -0.003747 (cumulative +0.01935), V4 -0.001652 (cumulative -0.1577)
+[ Info: Variance change at n=193; largest: V3 -0.01277 (cumulative -0.3166), V1 -0.002434 (cumulative +0.01691), V4 -0.001641 (cumulative -0.1594)
+[ Info: Variance change at n=194; largest: V3 -0.004615 (cumulative -0.3212), V1 -0.002422 (cumulative +0.01449), V4 -0.00163 (cumulative -0.161)
+[ Info: Variance change at n=195; largest: V3 -0.007268 (cumulative -0.3285), V1 -0.001855 (cumulative +0.01264), V4 -0.001619 (cumulative -0.1626)
+[ Info: Repeat cycle and add the 195-th instance to the dataset
+[ Info: Variance change at n=196; largest: V3 +0.02477 (cumulative -0.3037), V1 +0.01269 (cumulative +0.02533), V2 +0.002387 (cumulative +0.006343)
+[ Info: Variance change at n=197; largest: V3 +0.009212 (cumulative -0.2945), V1 +0.004635 (cumulative +0.02996), V4 -0.001598 (cumulative -0.1658)
+[ Info: Variance change at n=198; largest: V3 +0.006775 (cumulative -0.2877), V1 +0.004505 (cumulative +0.03447), V4 -0.001588 (cumulative -0.1674)
+[ Info: Variance change at n=199; largest: V4 -0.001577 (cumulative -0.169), V3 +0.0008383 (cumulative -0.2869), V1 -0.000726 (cumulative +0.03374)
+[ Info: Variance change at n=200; largest: V4 -0.001567 (cumulative -0.1705), V1 -0.000748 (cumulative +0.03299), V3 +0.0006808 (cumulative -0.2862)
+[ Info: Repeat cycle and add the 200-th instance to the dataset
+[ Info: Variance change at n=201; largest: V3 -0.01281 (cumulative -0.299), V2 +0.00393 (cumulative +0.009289), V4 -0.001557 (cumulative -0.1721)
+[ Info: Variance change at n=202; largest: V3 -0.01153 (cumulative -0.3106), V4 -0.001546 (cumulative -0.1737), V2 +0.001347 (cumulative +0.01064)
+[ Info: Variance change at n=203; largest: V3 -0.01144 (cumulative -0.322), V1 +0.001654 (cumulative +0.03617), V4 -0.001536 (cumulative -0.1752)
+[ Info: Variance change at n=204; largest: V3 -0.01363 (cumulative -0.3356), V1 -0.002694 (cumulative +0.03348), V4 -0.001526 (cumulative -0.1767)
+[ Info: Variance change at n=205; largest: V3 -0.01311 (cumulative -0.3487), V1 -0.002676 (cumulative +0.0308), V4 -0.001516 (cumulative -0.1782)
+[ Info: Repeat cycle and add the 205-th instance to the dataset
+[ Info: Variance change at n=206; largest: V3 +0.007637 (cumulative -0.3411), V1 +0.002598 (cumulative +0.0334), V4 -0.001506 (cumulative -0.1797)
+[ Info: Variance change at n=207; largest: V3 +0.0138 (cumulative -0.3273), V4 -0.001496 (cumulative -0.1812), V1 +0.0005467 (cumulative +0.03394)
+[ Info: Variance change at n=208; largest: V3 +0.01572 (cumulative -0.3116), V4 -0.001487 (cumulative -0.1827), V1 +0.0005024 (cumulative +0.03445)
+[ Info: Variance change at n=209; largest: V3 +0.013 (cumulative -0.2986), V4 -0.001477 (cumulative -0.1842), V1 +0.0004594 (cumulative +0.03491)
+[ Info: Variance change at n=210; largest: V3 +0.01726 (cumulative -0.2813), V1 +0.004626 (cumulative +0.03953), V4 -0.001467 (cumulative -0.1857)
+[ Info: Repeat cycle and add the 210-th instance to the dataset
+[ Info: Variance change at n=211; largest: V3 -0.01252 (cumulative -0.2938), V2 +0.003643 (cumulative +0.01654), V4 -0.001458 (cumulative -0.1871)
+[ Info: Variance change at n=212; largest: V3 -0.01142 (cumulative -0.3053), V4 -0.001448 (cumulative -0.1886), V2 +0.001207 (cumulative +0.01774)
+[ Info: Variance change at n=213; largest: V3 -0.01133 (cumulative -0.3166), V4 -0.001439 (cumulative -0.19), V1 +0.001146 (cumulative +0.04132)
+[ Info: Variance change at n=214; largest: V3 -0.01298 (cumulative -0.3296), V1 -0.002751 (cumulative +0.03857), V4 -0.00143 (cumulative -0.1914)
+[ Info: Variance change at n=215; largest: V3 -0.01268 (cumulative -0.3423), V1 -0.002732 (cumulative +0.03584), V4 -0.00142 (cumulative -0.1929)
+[ Info: Repeat cycle and add the 215-th instance to the dataset
+[ Info: Variance change at n=216; largest: V3 +0.006022 (cumulative -0.3362), V2 +0.002183 (cumulative +0.0222), V4 -0.001411 (cumulative -0.1943)
+[ Info: Variance change at n=217; largest: V3 +0.01175 (cumulative -0.3245), V2 +0.002133 (cumulative +0.02433), V4 -0.001402 (cumulative -0.1957)
+[ Info: Variance change at n=218; largest: V3 +0.01357 (cumulative -0.3109), V2 +0.002085 (cumulative +0.02641), V4 -0.001393 (cumulative -0.1971)
+[ Info: Variance change at n=219; largest: V3 +0.01321 (cumulative -0.2977), V4 -0.001384 (cumulative -0.1984), V2 +0.001338 (cumulative +0.02775)
+[ Info: Variance change at n=220; largest: V3 +0.008721 (cumulative -0.289), V2 +0.002784 (cumulative +0.03053), V1 -0.002322 (cumulative +0.03116)
+[ Info: Repeat cycle and add the 220-th instance to the dataset
+[ Info: The negation of the constraint is UNSAT; thus, the entire formula is SAT and the model is certified.
+[ Info: SyntaxBranch: V4 ≥ 0.65 ∧ V4 ≤ 0.95
+[ Info: SyntaxBranch: [Or] ≥ 1 ∧ [Or] ≤ 1
+[ Info: Variance change at n=121; largest: V3 -0.02541 (cumulative -0.02541), V1 -0.005859 (cumulative -0.005859), V4 -0.003055 (cumulative -0.003055)
+[ Info: Variance change at n=122; largest: V3 -0.02685 (cumulative -0.05226), V1 -0.006211 (cumulative -0.01207), V4 -0.00304 (cumulative -0.006095)
+[ Info: Variance change at n=123; largest: V3 -0.02261 (cumulative -0.07486), V1 -0.00521 (cumulative -0.01728), V4 -0.003024 (cumulative -0.009119)
+[ Info: Variance change at n=124; largest: V3 -0.02108 (cumulative -0.09594), V1 -0.005887 (cumulative -0.02317), V4 -0.003008 (cumulative -0.01213)
+[ Info: Variance change at n=125; largest: V3 -0.02527 (cumulative -0.1212), V1 -0.005924 (cumulative -0.02909), V4 -0.002991 (cumulative -0.01512)
+[ Info: Repeat cycle and add the 125-th instance to the dataset
+[ Info: Variance change at n=126; largest: V3 -0.02359 (cumulative -0.1448), V1 -0.005415 (cumulative -0.03451), V4 -0.002974 (cumulative -0.01809)
+[ Info: Variance change at n=127; largest: V3 -0.0249 (cumulative -0.1697), V1 -0.005741 (cumulative -0.04025), V4 -0.002957 (cumulative -0.02105)
+[ Info: Variance change at n=128; largest: V3 -0.02102 (cumulative -0.1907), V1 -0.004814 (cumulative -0.04506), V4 -0.002939 (cumulative -0.02399)
+[ Info: Variance change at n=129; largest: V3 -0.0196 (cumulative -0.2103), V1 -0.005452 (cumulative -0.05051), V4 -0.002921 (cumulative -0.02691)
+[ Info: Variance change at n=130; largest: V3 -0.02349 (cumulative -0.2338), V1 -0.005485 (cumulative -0.056), V4 -0.002903 (cumulative -0.02981)
+[ Info: Repeat cycle and add the 130-th instance to the dataset
+[ Info: Variance change at n=131; largest: V3 -0.02197 (cumulative -0.2558), V1 -0.00502 (cumulative -0.06102), V4 -0.004361 (cumulative -0.03417)
+[ Info: Variance change at n=132; largest: V3 -0.02316 (cumulative -0.2789), V1 -0.005321 (cumulative -0.06634), V4 -0.004298 (cumulative -0.03847)
+[ Info: Variance change at n=133; largest: V3 -0.01959 (cumulative -0.2985), V1 -0.004462 (cumulative -0.0708), V4 -0.004236 (cumulative -0.04271)
+[ Info: Variance change at n=134; largest: V3 -0.01826 (cumulative -0.3168), V1 -0.005064 (cumulative -0.07587), V4 -0.004176 (cumulative -0.04688)
+[ Info: Variance change at n=135; largest: V3 -0.02189 (cumulative -0.3387), V1 -0.005093 (cumulative -0.08096), V4 -0.004117 (cumulative -0.051)
+[ Info: Repeat cycle and add the 135-th instance to the dataset
+[ Info: Variance change at n=136; largest: V3 +0.02632 (cumulative -0.3124), V1 +0.0111 (cumulative -0.06986), V4 -0.002665 (cumulative -0.05367)
+[ Info: Variance change at n=137; largest: V3 +0.01808 (cumulative -0.2943), V1 +0.01292 (cumulative -0.05693), V4 -0.002649 (cumulative -0.05631)
+[ Info: Variance change at n=138; largest: V1 +0.008249 (cumulative -0.04868), V3 +0.007762 (cumulative -0.2865), V4 -0.002633 (cumulative -0.05895)
+[ Info: Variance change at n=139; largest: V3 +0.01019 (cumulative -0.2763), V1 +0.00607 (cumulative -0.04261), V4 -0.002616 (cumulative -0.06156)
+[ Info: Variance change at n=140; largest: V3 +0.03409 (cumulative -0.2422), V1 +0.01646 (cumulative -0.02615), V4 -0.0026 (cumulative -0.06416)
+[ Info: Repeat cycle and add the 140-th instance to the dataset
+[ Info: Variance change at n=141; largest: V1 -0.003938 (cumulative -0.03009), V4 -0.002583 (cumulative -0.06675), V3 +0.0004748 (cumulative -0.2418)
+[ Info: Variance change at n=142; largest: V3 -0.004543 (cumulative -0.2463), V1 -0.004427 (cumulative -0.03451), V4 -0.002567 (cumulative -0.06931)
+[ Info: Variance change at n=143; largest: V3 +0.01086 (cumulative -0.2354), V1 -0.003855 (cumulative -0.03837), V4 -0.00255 (cumulative -0.07186)
+[ Info: Variance change at n=144; largest: V4 -0.002533 (cumulative -0.0744), V3 +0.001961 (cumulative -0.2335), V2 -0.0005742 (cumulative -0.01073)
+[ Info: Variance change at n=145; largest: V3 -0.007373 (cumulative -0.2408), V1 -0.003183 (cumulative -0.04193), V4 -0.002516 (cumulative -0.07691)
+[ Info: Repeat cycle and add the 145-th instance to the dataset
+[ Info: Variance change at n=146; largest: V3 -0.01414 (cumulative -0.255), V1 -0.003793 (cumulative -0.04573), V4 -0.0025 (cumulative -0.07941)
+[ Info: Variance change at n=147; largest: V3 -0.0126 (cumulative -0.2676), V1 -0.003757 (cumulative -0.04948), V4 -0.002483 (cumulative -0.0819)
+[ Info: Variance change at n=148; largest: V3 -0.007456 (cumulative -0.275), V1 -0.003107 (cumulative -0.05259), V4 -0.002466 (cumulative -0.08436)
+[ Info: Variance change at n=149; largest: V3 -0.01894 (cumulative -0.294), V1 -0.003693 (cumulative -0.05628), V4 -0.002449 (cumulative -0.08681)
+[ Info: Variance change at n=150; largest: V3 -0.01086 (cumulative -0.3048), V1 -0.00465 (cumulative -0.06093), V4 -0.002432 (cumulative -0.08924)
+[ Info: Repeat cycle and add the 150-th instance to the dataset
+[ Info: Variance change at n=151; largest: V3 -0.01857 (cumulative -0.3234), V1 -0.003606 (cumulative -0.06454), V4 -0.002416 (cumulative -0.09166)
+[ Info: Variance change at n=152; largest: V3 -0.01764 (cumulative -0.3411), V1 -0.004025 (cumulative -0.06856), V2 +0.003183 (cumulative -0.003046)
+[ Info: Variance change at n=153; largest: V3 -0.01957 (cumulative -0.3606), V1 -0.004484 (cumulative -0.07305), V2 +0.003086 (cumulative +4.003e-05)
+[ Info: Variance change at n=154; largest: V3 -0.01317 (cumulative -0.3738), V1 -0.003482 (cumulative -0.07653), V4 -0.002365 (cumulative -0.0988)
+[ Info: Variance change at n=155; largest: V3 -0.01176 (cumulative -0.3856), V1 -0.00345 (cumulative -0.07998), V4 -0.002349 (cumulative -0.1012)
+[ Info: Repeat cycle and add the 155-th instance to the dataset
+B
+First cor: 0.834670008354219; Cert cor: 0.8412698412698413
+A model of type DecisionEnsemble{String, DecisionList{String}, SoleModels.var"#103#104"{SoleModels.var"#105#106"{SoleModels.var"#107#108"}}, Nothing} returned
+[ Info: Variance change at n=156; largest: V3 -0.01858 (cumulative -0.4041), V1 -0.003286 (cumulative -0.08327), V4 -0.002332 (cumulative -0.1035)
+[ Info: Variance change at n=157; largest: V3 -0.01858 (cumulative -0.4227), V1 -0.003257 (cumulative -0.08652), V4 -0.002316 (cumulative -0.1058)
+[ Info: Variance change at n=158; largest: V3 -0.01846 (cumulative -0.4412), V1 -0.003682 (cumulative -0.09021), V4 -0.002299 (cumulative -0.1081)
+[ Info: Variance change at n=159; largest: V3 -0.0182 (cumulative -0.4594), V1 -0.003195 (cumulative -0.0934), V4 -0.002283 (cumulative -0.1104)
+[ Info: Variance change at n=160; largest: V3 -0.01798 (cumulative -0.4774), V1 -0.004117 (cumulative -0.09752), V4 -0.002266 (cumulative -0.1126)
+[ Info: Repeat cycle and add the 160-th instance to the dataset
+[ Info: Variance change at n=161; largest: V1 +0.02065 (cumulative -0.07687), V3 +0.01994 (cumulative -0.4574), V2 +0.003185 (cumulative +0.00829)
+[ Info: Variance change at n=162; largest: V3 +0.01072 (cumulative -0.4467), V1 +0.00596 (cumulative -0.07091), V4 -0.002234 (cumulative -0.1171)
+[ Info: Variance change at n=163; largest: V3 +0.00768 (cumulative -0.439), V1 +0.005762 (cumulative -0.06515), V4 -0.002218 (cumulative -0.1194)
+[ Info: Variance change at n=164; largest: V4 -0.002202 (cumulative -0.1216), V1 -0.0006457 (cumulative -0.06579), V2 -0.000469 (cumulative +0.008323)
+[ Info: Variance change at n=165; largest: V4 -0.002186 (cumulative -0.1237), V1 +0.001415 (cumulative -0.06438), V2 -0.0007945 (cumulative +0.007529)
+[ Info: Repeat cycle and add the 165-th instance to the dataset
+[ Info: Variance change at n=166; largest: V3 -0.01454 (cumulative -0.4529), V1 +0.002323 (cumulative -0.06205), V4 -0.00217 (cumulative -0.1259)
+[ Info: Variance change at n=167; largest: V3 -0.0144 (cumulative -0.4673), V4 -0.002154 (cumulative -0.1281), V2 +0.001707 (cumulative +0.01022)
+[ Info: Variance change at n=168; largest: V3 -0.01127 (cumulative -0.4786), V4 -0.002139 (cumulative -0.1302), V2 +0.0002803 (cumulative +0.0105)
+[ Info: Variance change at n=169; largest: V3 -0.01645 (cumulative -0.4951), V1 -0.003086 (cumulative -0.06419), V4 -0.002123 (cumulative -0.1323)
+[ Info: Variance change at n=170; largest: V3 -0.01653 (cumulative -0.5116), V1 -0.003062 (cumulative -0.06725), V4 -0.002108 (cumulative -0.1344)
+[ Info: Repeat cycle and add the 170-th instance to the dataset
+[ Info: Variance change at n=171; largest: V3 +0.008785 (cumulative -0.5028), V1 +0.003261 (cumulative -0.06399), V4 -0.002092 (cumulative -0.1365)
+[ Info: Variance change at n=172; largest: V3 +0.01613 (cumulative -0.4867), V1 +0.003138 (cumulative -0.06085), V4 -0.002077 (cumulative -0.1386)
+[ Info: Variance change at n=173; largest: V3 +0.01835 (cumulative -0.4683), V4 -0.002062 (cumulative -0.1407), V1 +0.0006919 (cumulative -0.06016)
+[ Info: Variance change at n=174; largest: V3 +0.0206 (cumulative -0.4477), V1 +0.005692 (cumulative -0.05446), V4 -0.002047 (cumulative -0.1427)
+[ Info: Variance change at n=175; largest: V3 +0.0144 (cumulative -0.4333), V4 -0.002032 (cumulative -0.1447), V2 +0.0005222 (cumulative +0.0128)
+[ Info: Repeat cycle and add the 175-th instance to the dataset
+[ Info: Variance change at n=176; largest: V1 +0.01896 (cumulative -0.03499), V3 +0.01865 (cumulative -0.4147), V2 +0.002783 (cumulative +0.01559)
+[ Info: Variance change at n=177; largest: V3 +0.01017 (cumulative -0.4045), V1 +0.005436 (cumulative -0.02955), V4 -0.002003 (cumulative -0.1488)
+[ Info: Variance change at n=178; largest: V3 +0.007383 (cumulative -0.3971), V1 +0.005268 (cumulative -0.02428), V4 -0.001988 (cumulative -0.1508)
+[ Info: Variance change at n=179; largest: V4 -0.001974 (cumulative -0.1527), V1 -0.0006796 (cumulative -0.02496), V3 +0.0006679 (cumulative -0.3965)
+[ Info: Variance change at n=180; largest: V4 -0.001959 (cumulative -0.1547), V1 +0.001248 (cumulative -0.02371), V2 -0.0007865 (cumulative +0.0146)
+[ Info: Repeat cycle and add the 180-th instance to the dataset
+[ Info: Variance change at n=181; largest: V3 +0.02196 (cumulative -0.374), V1 +0.01143 (cumulative -0.01229), V4 -0.001945 (cumulative -0.1566)
+[ Info: Variance change at n=182; largest: V1 +0.01302 (cumulative +0.0007319), V3 +0.008304 (cumulative -0.3657), V4 -0.001931 (cumulative -0.1586)
+[ Info: Variance change at n=183; largest: V3 +0.01276 (cumulative -0.353), V1 +0.005884 (cumulative +0.006616), V4 -0.001917 (cumulative -0.1605)
+[ Info: Variance change at n=184; largest: V3 +0.02314 (cumulative -0.3298), V1 +0.01245 (cumulative +0.01906), V4 -0.001903 (cumulative -0.1624)
+[ Info: Variance change at n=185; largest: V3 +0.00705 (cumulative -0.3228), V1 +0.006977 (cumulative +0.02604), V4 -0.001889 (cumulative -0.1643)
+[ Info: Repeat cycle and add the 185-th instance to the dataset
+[ Info: Variance change at n=186; largest: V3 -0.01331 (cumulative -0.3361), V1 +0.001892 (cumulative +0.02793), V4 -0.001876 (cumulative -0.1661)
+[ Info: Variance change at n=187; largest: V3 -0.0132 (cumulative -0.3493), V4 -0.001862 (cumulative -0.168), V2 +0.001554 (cumulative +0.01251)
+[ Info: Variance change at n=188; largest: V3 -0.01029 (cumulative -0.3596), V4 -0.001849 (cumulative -0.1699), V1 -0.0003015 (cumulative +0.02835)
+[ Info: Variance change at n=189; largest: V3 -0.01521 (cumulative -0.3748), V1 -0.003102 (cumulative +0.02525), V4 -0.001835 (cumulative -0.1717)
+[ Info: Variance change at n=190; largest: V3 -0.01534 (cumulative -0.3901), V1 -0.003081 (cumulative +0.02217), V4 -0.001822 (cumulative -0.1735)
+[ Info: Repeat cycle and add the 190-th instance to the dataset
+[ Info: Variance change at n=191; largest: V3 +0.02804 (cumulative -0.3621), V1 +0.01196 (cumulative +0.03413), V4 -0.001809 (cumulative -0.1753)
+[ Info: Variance change at n=192; largest: V3 +0.02154 (cumulative -0.3405), V1 +0.01167 (cumulative +0.04581), V4 -0.001796 (cumulative -0.1771)
+[ Info: Variance change at n=193; largest: V1 +0.006463 (cumulative +0.05227), V3 +0.006303 (cumulative -0.3342), V4 -0.001783 (cumulative -0.1789)
+[ Info: Variance change at n=194; largest: V3 +0.01043 (cumulative -0.3238), V1 +0.004867 (cumulative +0.05714), V4 -0.00177 (cumulative -0.1807)
+[ Info: Variance change at n=195; largest: V3 +0.01738 (cumulative -0.3064), V1 +0.009247 (cumulative +0.06638), V4 -0.001758 (cumulative -0.1824)
+[ Info: Repeat cycle and add the 195-th instance to the dataset
+[ Info: Variance change at n=196; largest: V3 -0.01373 (cumulative -0.3201), V2 +0.003882 (cumulative +0.0146), V4 -0.001745 (cumulative -0.1842)
+[ Info: Variance change at n=197; largest: V3 -0.01223 (cumulative -0.3324), V4 -0.001733 (cumulative -0.1859), V2 +0.001311 (cumulative +0.01591)
+[ Info: Variance change at n=198; largest: V3 -0.01515 (cumulative -0.3475), V1 -0.003038 (cumulative +0.0648), V4 -0.00172 (cumulative -0.1876)
+[ Info: Variance change at n=199; largest: V3 -0.012 (cumulative -0.3595), V4 -0.001708 (cumulative -0.1893), V1 +0.001662 (cumulative +0.06646)
+[ Info: Variance change at n=200; largest: V3 -0.0142 (cumulative -0.3737), V1 -0.003038 (cumulative +0.06342), V4 -0.001696 (cumulative -0.191)
+[ Info: Repeat cycle and add the 200-th instance to the dataset
+[ Info: Variance change at n=201; largest: V3 +0.02512 (cumulative -0.3486), V1 +0.01081 (cumulative +0.07423), V4 -0.001684 (cumulative -0.1927)
+[ Info: Variance change at n=202; largest: V3 +0.0191 (cumulative -0.3295), V1 +0.01055 (cumulative +0.08478), V4 -0.001672 (cumulative -0.1944)
+[ Info: Variance change at n=203; largest: V1 +0.005679 (cumulative +0.09046), V3 +0.00496 (cumulative -0.3245), V4 -0.00166 (cumulative -0.196)
+[ Info: Variance change at n=204; largest: V3 +0.008823 (cumulative -0.3157), V1 +0.004196 (cumulative +0.09466), V4 -0.001649 (cumulative -0.1977)
+[ Info: Variance change at n=205; largest: V3 +0.01534 (cumulative -0.3004), V1 +0.00832 (cumulative +0.103), V4 -0.001637 (cumulative -0.1993)
+[ Info: Repeat cycle and add the 205-th instance to the dataset
+[ Info: The negation of the constraint is UNSAT; thus, the entire formula is SAT and the model is certified.
+B
+First cor: 0.6378151260504202; Cert cor: 0.674074074074074

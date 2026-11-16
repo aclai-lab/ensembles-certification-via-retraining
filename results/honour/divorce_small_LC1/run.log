@@ -1,0 +1,18 @@
+A model of type DecisionEnsemble{String, DecisionList{String}, SoleModels.var"#103#104"{SoleModels.var"#105#106"{SoleModels.var"#107#108"}}, Nothing} returned
+B
+First cor: 1.0; Cert cor: 1.0
+A model of type DecisionEnsemble{String, DecisionList{String}, SoleModels.var"#103#104"{SoleModels.var"#105#106"{SoleModels.var"#107#108"}}, Nothing} returned
+B
+First cor: 1.0; Cert cor: 1.0
+A model of type DecisionEnsemble{String, DecisionList{String}, SoleModels.var"#103#104"{SoleModels.var"#105#106"{SoleModels.var"#107#108"}}, Nothing} returned
+[ Info: SyntaxBranch: V54 ≥ 0 ∧ V54 ≤ 0
+[ Info: SyntaxBranch: [Or] ≥ 1 ∧ [Or] ≤ 1
+[ Info: The negation of the constraint is UNSAT; thus, the entire formula is SAT and the model is certified.
+[ Info: SyntaxBranch: V54 ≥ 0 ∧ V54 ≤ 0
+[ Info: SyntaxBranch: [Or] ≥ 1 ∧ [Or] ≤ 1
+[ Info: The negation of the constraint is UNSAT; thus, the entire formula is SAT and the model is certified.
+[ Info: SyntaxBranch: V54 ≥ 0 ∧ V54 ≤ 0
+[ Info: SyntaxBranch: [Or] ≥ 1 ∧ [Or] ≤ 1
+[ Info: The negation of the constraint is UNSAT; thus, the entire formula is SAT and the model is certified.
+B
+First cor: 1.0; Cert cor: 1.0

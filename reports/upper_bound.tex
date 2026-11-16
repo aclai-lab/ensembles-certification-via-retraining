@@ -1,0 +1,288 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=2.6cm]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{assumption}{Assumption}
+\renewcommand{\theassumption}{\Alph{assumption}}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Dom}{\Omega}
+
+\title{An upper bound on the instances added by the real-profile repair}
+\author{FormalVerificationRandomForests.jl, branch \texttt{experiments}}
+\date{23 October 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The certification loop retrains a model, asks an SMT solver for a counterexample to the
+constraint, and adds that counterexample to the training set.
+In the real-profile repair, the features outside the left constraint may only take the
+values of a real training instance.
+We prove that, if the retrained model keeps every already repaired profile correct
+(Assumption~\ref{ass:persistence}), the loop certifies the model after at most $N$
+cycles, where $N$ is the number of distinct real profiles, hence after adding at most
+$mN$ instances, $m$ being the number of instances added per cycle.
+We then show that the assumption cannot be dropped: without it, even with a finite set of
+profiles and an exact solver, no finite bound exists.
+Finally, we explain why no analogous bound exists for the original repair, and compare the
+bound with the breastcancer experiments, where the assumption held exactly in 7 of 15 runs
+and the loop always stopped far below the bound.
+\end{abstract}
+
+\section{Setting}
+
+Let $d$ be the number of features and let $D_0=\{(x_i,y_i)\}_{i=1}^{n}$, with
+$x_i\in\R^d$, be the training set.
+The left constraint $\varphi$ mentions a set of feature indexes $K\subseteq\{1,\dots,d\}$
+(the \emph{constrained} features, computed by \texttt{constrained\_indexes}); the remaining
+indexes $F=\{1,\dots,d\}\setminus K$ are the \emph{free} features.
+For $x\in\R^d$ we write $x=(x_K,x_F)$.
+
+\begin{definition}[Constrained region and real profiles]
+The constrained region is
+\[
+  C=\{c\in\R^{K} : c \text{ satisfies } \varphi \text{ and the boundary constraints}\},
+\]
+which for breastcancer is a box with nonempty interior.
+The set of real profiles is the finite set
+\[
+  P=\{(x_i)_F : 1\le i\le n\},\qquad N=|P|\le n .
+\]
+The verification domain is $\Dom=C\times P=\{x : x_K\in C,\ x_F\in P\}$.
+\end{definition}
+
+Let $\psi$ be the right constraint and $t$ the class it requires.
+A learner $L$ maps a training set $D$ to a classifier $f=L(D)$, and $f$ is
+\emph{certified} when $f(x)=t$ for every $x\in\Dom$.
+In the code, $\Dom$ is enforced by the SMT assertion produced by
+\texttt{free\_profile\_domain}, conjoined with $\neg(\varphi\to\psi)$ and the boundary
+constraints.
+
+\begin{assumption}[Exact oracle]\label{ass:oracle}
+Given $f$, the solver terminates and returns some $x\in\Dom$ with $f(x)\ne t$ whenever
+such an $x$ exists, and reports unsatisfiability otherwise.
+\end{assumption}
+
+This holds for the forests encoded in linear real arithmetic, a decidable theory for which
+Z3 is a complete decision procedure on the generated formulas.
+
+\paragraph{The repair loop.}
+Fix an integer $m\ge 1$ (\texttt{profiles\_per\_cycle}, $m=5$ in the experiments).
+For $k=0,1,2,\dots$:
+\begin{enumerate}
+  \item train $f_k=L(D_k)$;
+  \item if $f_k$ is certified, stop; otherwise the oracle returns a counterexample
+        $x^k=(c^k,p^k)\in\Dom$ with $f_k(x^k)\ne t$;
+  \item choose $Q_k\subseteq P\setminus\{p^k\}$ with $|Q_k|=\min(m-1,N-1)$
+        (the nearest profiles to $p^k$, see \texttt{nearest\_profiles}) and add the batch
+        \[
+          A_k=\{(c^k,p^k)\}\cup\{(c^k,q) : q\in Q_k\},
+        \]
+        every element labelled $t$: $D_{k+1}=D_k\cup(A_k\times\{t\})$.
+\end{enumerate}
+Each batch adds at most $m$ instances.
+We call \emph{repaired} the profiles used by some earlier batch:
+\[
+  R_k=\{p\in P : (c,p)\in A_j \text{ for some } j<k \text{ and some } c\},\qquad R_0=\emptyset .
+\]
+
+\section{The bound}
+
+\begin{assumption}[Slice persistence]\label{ass:persistence}
+For every cycle $k$ and every repaired profile $p\in R_k$,
+\[
+  f_k(c,p)=t\quad\text{for every } c\in C .
+\]
+In words: once a profile has been moved into the constrained region with label $t$,
+every later retrained model classifies the whole slice $C\times\{p\}$ as $t$.
+\end{assumption}
+
+\begin{theorem}\label{thm:bound}
+Under Assumptions~\ref{ass:oracle} and~\ref{ass:persistence}, the repair loop stops with a
+certified model after a number of cycles
+\[
+  K\le N,
+\]
+and the number of added instances is
+\[
+  I=\sum_{k<K}|A_k|\le mK\le mN .
+\]
+\end{theorem}
+
+\begin{proof}
+We first show that every counterexample uses a profile that has not been repaired yet.
+Let $f_k$ be not certified and let $x^k=(c^k,p^k)$ be the counterexample returned by the
+oracle, so $c^k\in C$ and $f_k(c^k,p^k)\ne t$.
+If $p^k$ belonged to $R_k$, Assumption~\ref{ass:persistence} would give
+$f_k(c^k,p^k)=t$, a contradiction.
+Hence $p^k\notin R_k$.
+
+Since $(c^k,p^k)\in A_k$, we have $p^k\in R_{k+1}$, and therefore
+$R_{k+1}\supseteq R_k\cup\{p^k\}$ with $p^k\notin R_k$, that is,
+\[
+  |R_{k+1}|\ge |R_k|+1 .
+\]
+By induction from $|R_0|=0$, if the loop has not stopped before cycle $k$ then
+$|R_k|\ge k$.
+Since $R_k\subseteq P$, we get $k\le|R_k|\le N$.
+
+Suppose the loop reaches cycle $k=N$.
+Then $|R_N|=N$, so $R_N=P$, and Assumption~\ref{ass:persistence} gives $f_N(c,p)=t$ for
+every $c\in C$ and every $p\in P$, i.e.\ for every $x\in\Dom$: $f_N$ is certified.
+By Assumption~\ref{ass:oracle} the oracle then reports unsatisfiability and the loop
+stops.
+Hence the loop stops at some cycle $K\le N$, and since each batch has at most $m$
+elements, $I\le mK\le mN$.
+\end{proof}
+
+\begin{corollary}[Fresh neighbours]\label{cor:fresh}
+If moreover every batch only uses profiles that are not repaired yet, i.e.\
+$Q_k\cap R_k=\emptyset$ for every $k$, then
+\[
+  K\le\left\lceil N/m\right\rceil
+  \qquad\text{and}\qquad
+  I\le m\left\lceil N/m\right\rceil<N+m .
+\]
+\end{corollary}
+
+\begin{proof}
+The profiles of $A_k$ are $p^k$ and the $m-1$ elements of $Q_k$, which are pairwise
+distinct because $Q_k\subseteq P\setminus\{p^k\}$.
+None of them is in $R_k$: $p^k\notin R_k$ by the proof of Theorem~\ref{thm:bound}, and
+$Q_k\cap R_k=\emptyset$ by hypothesis.
+Hence $|R_{k+1}|=|R_k|+m$, and $|R_k|=mk$ for every cycle $k$ the loop reaches.
+
+The loop produces a counterexample at cycles $0,\dots,K-1$.
+At cycle $K-1$ the counterexample profile is not repaired, so $R_{K-1}\ne P$ and
+$m(K-1)=|R_{K-1}|<N$.
+Therefore $K<N/m+1$, i.e.\ $K\le\lceil N/m\rceil$, and $I=mK\le m\lceil N/m\rceil<N+m$.
+\end{proof}
+
+\begin{remark}[Relapses]\label{rem:relapse}
+Without any assumption on the learner, counting gives $K\le\rho N$, where $\rho$ is the
+largest number of times a single profile is returned as the profile of a counterexample.
+Assumption~\ref{ass:persistence} is exactly what makes $\rho=1$.
+A counterexample whose profile was already repaired is a \emph{relapse}; every other cycle
+repairs a new profile, so at most $N$ cycles are not relapses and $K\le N+(\text{number of
+relapses})$.
+Section~\ref{sec:experiments} measures how often this happens.
+\end{remark}
+
+\begin{remark}[Batches of perturbed copies]
+If each cycle also adds $b$ perturbed copies of the counterexample (\texttt{batch\_size}),
+the batch has $b+m-1$ elements and the same proof gives $I\le(b+m-1)N$.
+Perturbed copies must keep their free part in $P$ for Assumption~\ref{ass:persistence} to
+remain meaningful; the current \texttt{perturb} also perturbs the free features, so the
+experiments use $b=1$.
+\end{remark}
+
+\section{The assumption cannot be dropped}
+
+\begin{proposition}\label{prop:nobound}
+There is a learner that fits its training set exactly and an exact oracle for which the
+repair loop never stops, even with $N=1$.
+Hence, without Assumption~\ref{ass:persistence}, no bound on $K$ or $I$ depending only on
+$N$ and $m$ exists.
+\end{proposition}
+
+\begin{proof}
+Let $s\ne t$ be another class, let $\|\cdot\|$ be the Euclidean norm, and define
+\[
+  L(D)=f_D,\qquad
+  f_D(x)=\begin{cases}
+    t & \text{if } \|x-z\|<2^{-|D|} \text{ for some } (z,t)\in D,\\
+    s & \text{otherwise.}
+  \end{cases}
+\]
+On any training set whose $t$-labelled and $s$-labelled points are at distance at least
+$2^{-|D|}$ from each other, $f_D$ predicts every training label correctly, so the
+learner fits its data.
+
+Take $P=\{p\}$ and let $C$ have nonempty interior, so its Lebesgue measure $\lambda(C)$ in
+$\R^{K}$ is positive.
+At cycle $k$, the set of points of the slice $C\times\{p\}$ on which $f_k$ predicts $t$ is
+contained in the union of $|D_k|$ balls of radius $2^{-|D_k|}$, whose total measure in
+$\R^{K}$ is at most
+\[
+  |D_k|\,\omega_{|K|}\,2^{-|K|\,|D_k|},
+\]
+where $\omega_{|K|}$ is the volume of the unit ball.
+This quantity tends to $0$ as $|D_k|$ grows, so for $|D_0|$ large enough it is smaller
+than $\lambda(C)$ at every cycle, since $|D_k|$ only increases.
+Hence there is always some $c\in C$ with $f_k(c,p)=s\ne t$, the exact oracle always
+returns a counterexample, and the loop never stops.
+\end{proof}
+
+The learner of Proposition~\ref{prop:nobound} is artificial, but it isolates the mechanism:
+a model that repairs only a small neighbourhood of each added instance leaves the rest of
+the continuous region $C$ unrepaired.
+A decision forest with a minimum leaf size larger than one is the opposite extreme, since a
+leaf covers a whole box; this is why one added instance alone rarely changes the forest,
+and why the repair adds the nearest profiles too.
+
+\section{Why the original repair has no such bound}
+
+In the original repair the free features range over the box
+$B_F=\prod_{j\in F}[\min_i x_{ij},\max_i x_{ij}]$, so the verification domain is
+$C\times B_F$ and the role of $P$ is played by the continuum $B_F$.
+Even under the analogue of Assumption~\ref{ass:persistence} for these profiles, the proof of
+Theorem~\ref{thm:bound} only shows that every counterexample uses a profile not repaired yet;
+now there are infinitely many profiles, so the growth of $R_k$ gives
+no bound at all.
+This matches what we observed: the solver returns profiles at the corners of $B_F$ (most
+free features at their minimum), each repair covers a negligible part of $B_F$, and
+certifying needed up to 824 instances on breastcancer.
+
+\section{Comparison with the experiments}\label{sec:experiments}
+
+For breastcancer ($n=455$ training instances, $m=5$) the profiles are all distinct, so
+$N=455$ for every constraint size and Theorem~\ref{thm:bound} gives $K\le 455$ and
+$I\le 2275$.
+Table~\ref{tab:observed} reports what the loop actually needed, together with an empirical
+check of Assumption~\ref{ass:persistence}: a \emph{relapse} is a counterexample whose profile had already been repaired (as a
+counterexample or as a neighbour), which is exactly what the assumption forbids.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{llrrrrr}
+\toprule
+Constrained & Seed & Cycles $K$ & Instances $I$ & Distinct profiles & Relapses & Bound $mN$\\
+\midrule
+$V_1$ & 1 & 34 & 170 & 30 & 5 & 2275\\
+$V_1$ & 2 & 30 & 150 & 26 & 10 & 2275\\
+$V_1$ & 3 & 34 & 170 & 29 & 6 & 2275\\
+$V_1$ & 4 & 40 & 200 & 35 & 11 & 2275\\
+$V_1$ & 5 & 19 & 95 & 18 & 1 & 2275\\
+\midrule
+$V_1,V_3$ & 1 & 9 & 45 & 9 & 0 & 2275\\
+$V_1,V_3$ & 2 & 6 & 30 & 5 & 1 & 2275\\
+$V_1,V_3$ & 3 & 6 & 30 & 5 & 1 & 2275\\
+$V_1,V_3$ & 4 & 8 & 40 & 8 & 0 & 2275\\
+$V_1,V_3$ & 5 & 7 & 35 & 7 & 0 & 2275\\
+\midrule
+$V_1,V_3,V_4$ & 1 & 5 & 25 & 5 & 0 & 2275\\
+$V_1,V_3,V_4$ & 2 & 4 & 20 & 4 & 1 & 2275\\
+$V_1,V_3,V_4$ & 3 & 7 & 35 & 7 & 0 & 2275\\
+$V_1,V_3,V_4$ & 4 & 5 & 25 & 5 & 0 & 2275\\
+$V_1,V_3,V_4$ & 5 & 4 & 20 & 4 & 0 & 2275\\
+\bottomrule
+\end{tabular}
+\caption{Real-profile repair on breastcancer, 8 trees, 5 seeds per constraint size.}
+\label{tab:observed}
+\end{table}
+
+Assumption~\ref{ass:persistence} held exactly in 7 of the 15 runs, all with two or three constrained features. Over all runs, 36 of the 218 counterexamples (16.5\%) were relapses, almost all of them with only $V_1$ constrained, where the slice $C\times\{p\}$ is widest and a retrained forest can still split inside it. So the assumption is an idealisation and Theorem~\ref{thm:bound} is a bound for an idealised learner; by Remark~\ref{rem:relapse} each relapse adds at most one cycle to the bound, and in every run the observed number of cycles stayed far below the bound: at most 40 cycles and 200 instances, against $N=455$ and $mN=2275$.
+
+\end{document}

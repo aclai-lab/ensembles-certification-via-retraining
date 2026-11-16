@@ -1,0 +1,114 @@
+A model of type DecisionEnsemble{String, DecisionList{String}, SoleModels.var"#103#104"{SoleModels.var"#105#106"{SoleModels.var"#107#108"}}, Nothing} returned
+B
+First cor: 0.9153439153439153; Cert cor: 1.0
+A model of type DecisionEnsemble{String, DecisionList{String}, SoleModels.var"#103#104"{SoleModels.var"#105#106"{SoleModels.var"#107#108"}}, Nothing} returned
+B
+First cor: 0.6; Cert cor: 1.0
+A model of type DecisionEnsemble{String, DecisionList{String}, SoleModels.var"#103#104"{SoleModels.var"#105#106"{SoleModels.var"#107#108"}}, Nothing} returned
+[ Info: SyntaxBranch: V35 ≥ 1 ∧ V35 ≤ 1 ∧ V34 ≥ 0 ∧ V34 ≤ 0
+[ Info: SyntaxBranch: [Or] ≥ 4 ∧ [Or] ≤ 4
+[ Info: Variance change at n=38; largest: V1 +0.2104 (cumulative +0.2104), V21 +0.05374 (cumulative +0.05374), V28 +0.04267 (cumulative +0.04267)
+[ Info: Variance change at n=39; largest: V21 +0.04698 (cumulative +0.1007), V1 +0.03655 (cumulative +0.247), V28 +0.03545 (cumulative +0.07813)
+[ Info: Variance change at n=40; largest: V1 +0.168 (cumulative +0.415), V21 +0.04103 (cumulative +0.1417), V28 +0.02915 (cumulative +0.1073)
+[ Info: Variance change at n=41; largest: V1 -0.07043 (cumulative +0.3446), V21 +0.03577 (cumulative +0.1775), V28 +0.02364 (cumulative +0.1309)
+[ Info: Variance change at n=42; largest: V1 -0.1018 (cumulative +0.2428), V22 +0.05325 (cumulative +0.04127), V21 +0.03113 (cumulative +0.2086)
+[ Info: Repeat cycle and add the 42-th instance to the dataset
+[ Info: Variance change at n=43; largest: V1 +0.1389 (cumulative +0.3817), V21 +0.02701 (cumulative +0.2357), V6 -0.01696 (cumulative -0.1162)
+[ Info: Variance change at n=44; largest: V1 -0.07047 (cumulative +0.3112), V21 +0.02336 (cumulative +0.259), V6 -0.01651 (cumulative -0.1327)
+[ Info: Variance change at n=45; largest: V1 -0.09476 (cumulative +0.2165), V22 +0.04355 (cumulative +0.07128), V21 +0.02011 (cumulative +0.2791)
+[ Info: Variance change at n=46; largest: V1 +0.1167 (cumulative +0.3332), V7 -0.01884 (cumulative +0.06644), V21 +0.01722 (cumulative +0.2963)
+[ Info: Variance change at n=47; largest: V6 -0.01614 (cumulative -0.1806), V21 +0.01464 (cumulative +0.311), V10 +0.01357 (cumulative +0.06253)
+[ Info: Repeat cycle and add the 47-th instance to the dataset
+[ Info: Variance change at n=48; largest: V1 +0.09559 (cumulative +0.4244), V7 +0.06015 (cumulative +0.1335), V26 +0.0451 (cumulative -0.07436)
+[ Info: Variance change at n=49; largest: V1 -0.07224 (cumulative +0.3522), V7 +0.05452 (cumulative +0.1881), V26 +0.04092 (cumulative -0.03343)
+[ Info: Variance change at n=50; largest: V7 +0.04942 (cumulative +0.2375), V26 +0.03714 (cumulative +0.003711), V3 +0.03316 (cumulative +0.00288)
+[ Info: Variance change at n=51; largest: V1 +0.07629 (cumulative +0.4144), V7 +0.04479 (cumulative +0.2823), V26 +0.03371 (cumulative +0.03742)
+[ Info: Variance change at n=52; largest: V1 -0.07151 (cumulative +0.3429), V7 +0.04059 (cumulative +0.3229), V26 +0.03059 (cumulative +0.06801)
+[ Info: Repeat cycle and add the 52-th instance to the dataset
+[ Info: Variance change at n=53; largest: V1 -0.0801 (cumulative +0.2628), V22 +0.03918 (cumulative +0.2017), V21 +0.01754 (cumulative +0.4452)
+[ Info: Variance change at n=54; largest: V1 +0.06649 (cumulative +0.3293), V21 +0.01529 (cumulative +0.4605), V6 -0.01185 (cumulative -0.1998)
+[ Info: Variance change at n=55; largest: V1 -0.06772 (cumulative +0.2616), V21 +0.01326 (cumulative +0.4737), V6 -0.01163 (cumulative -0.2114)
+[ Info: Variance change at n=56; largest: V1 -0.02178 (cumulative +0.2398), V6 -0.01302 (cumulative -0.2245), V21 +0.01141 (cumulative +0.4851)
+[ Info: Variance change at n=57; largest: V1 +0.05423 (cumulative +0.294), V7 -0.01953 (cumulative +0.3294), V28 -0.01107 (cumulative +0.125)
+[ Info: Repeat cycle and add the 57-th instance to the dataset
+[ Info: Variance change at n=58; largest: V1 -0.06572 (cumulative +0.2283), V7 +0.03921 (cumulative +0.3686), V26 +0.02852 (cumulative +0.04861)
+[ Info: Variance change at n=59; largest: V1 +0.04735 (cumulative +0.2757), V7 +0.03591 (cumulative +0.4045), V26 +0.02617 (cumulative +0.07478)
+[ Info: Variance change at n=60; largest: V1 +0.04188 (cumulative +0.3175), V7 +0.03288 (cumulative +0.4374), V26 +0.024 (cumulative +0.09878)
+[ Info: Variance change at n=61; largest: V1 -0.06641 (cumulative +0.2511), V26 +0.02201 (cumulative +0.1208), V3 +0.01974 (cumulative +0.1081)
+[ Info: Variance change at n=62; largest: V7 +0.02909 (cumulative +0.4555), V1 -0.02838 (cumulative +0.2227), V26 +0.02017 (cumulative +0.141)
+[ Info: Repeat cycle and add the 62-th instance to the dataset
+[ Info: Variance change at n=63; largest: V1 -0.06248 (cumulative +0.1603), V6 +0.02509 (cumulative -0.2023), V26 +0.01847 (cumulative +0.1594)
+[ Info: Variance change at n=64; largest: V1 -0.0606 (cumulative +0.09966), V26 +0.0169 (cumulative +0.1763), V3 +0.01505 (cumulative +0.1577)
+[ Info: Variance change at n=65; largest: V1 -0.02516 (cumulative +0.0745), V26 +0.01545 (cumulative +0.1918), V28 -0.01401 (cumulative +0.02074)
+[ Info: Variance change at n=66; largest: V1 +0.03582 (cumulative +0.1103), V7 +0.02429 (cumulative +0.4449), V28 -0.01416 (cumulative +0.006577)
+[ Info: Variance change at n=67; largest: V1 -0.05674 (cumulative +0.05358), V7 +0.0223 (cumulative +0.4672), V28 -0.01428 (cumulative -0.007701)
+[ Info: Repeat cycle and add the 67-th instance to the dataset
+[ Info: The negation of the constraint is UNSAT; thus, the entire formula is SAT and the model is certified.
+[ Info: SyntaxBranch: V35 ≥ 1 ∧ V35 ≤ 1 ∧ V34 ≥ 0 ∧ V34 ≤ 0
+[ Info: SyntaxBranch: [Or] ≥ 4 ∧ [Or] ≤ 4
+[ Info: Variance change at n=38; largest: V1 -0.07247 (cumulative -0.07247), V21 +0.03232 (cumulative +0.03232), V7 +0.01525 (cumulative +0.01525)
+[ Info: Variance change at n=39; largest: V1 -0.09996 (cumulative -0.1724), V22 +0.04255 (cumulative +0.02816), V6 -0.03049 (cumulative -0.01903)
+[ Info: Variance change at n=40; largest: V1 +0.1417 (cumulative -0.03072), V21 +0.02308 (cumulative +0.08279), V6 -0.01684 (cumulative -0.03587)
+[ Info: Variance change at n=41; largest: V1 -0.09615 (cumulative -0.1269), V22 +0.03558 (cumulative +0.04769), V21 +0.01929 (cumulative +0.1021)
+[ Info: Variance change at n=42; largest: V1 +0.1228 (cumulative -0.004055), V22 -0.01707 (cumulative +0.03062), V21 +0.01597 (cumulative +0.1181)
+[ Info: Repeat cycle and add the 42-th instance to the dataset
+[ Info: Variance change at n=43; largest: V22 +0.02997 (cumulative +0.06058), V7 -0.01914 (cumulative +0.03441), V21 +0.01305 (cumulative +0.1311)
+[ Info: Variance change at n=44; largest: V1 -0.08963 (cumulative -0.09939), V6 -0.02628 (cumulative -0.05827), V22 +0.02625 (cumulative +0.08683)
+[ Info: Variance change at n=45; largest: V1 +0.09928 (cumulative -0.0001092), V22 -0.01848 (cumulative +0.06836), V10 -0.01142 (cumulative -0.05498)
+[ Info: Variance change at n=46; largest: V6 -0.02499 (cumulative -0.07607), V10 +0.02235 (cumulative -0.03263), V22 -0.01783 (cumulative +0.05053)
+[ Info: Variance change at n=47; largest: V1 -0.08297 (cumulative -0.09704), V6 -0.02394 (cumulative -0.1), V22 +0.02164 (cumulative +0.07217)
+[ Info: Repeat cycle and add the 47-th instance to the dataset
+[ Info: Variance change at n=48; largest: V22 +0.01898 (cumulative +0.09115), V7 -0.01657 (cumulative +0.01343), V1 -0.01388 (cumulative -0.1109)
+[ Info: Variance change at n=49; largest: V1 -0.07718 (cumulative -0.1881), V6 -0.02278 (cumulative -0.1169), V22 +0.0166 (cumulative +0.1077)
+[ Info: Variance change at n=50; largest: V1 +0.07653 (cumulative -0.1116), V22 -0.01861 (cumulative +0.08914), V28 -0.01531 (cumulative -0.09322)
+[ Info: Variance change at n=51; largest: V6 -0.02166 (cumulative -0.1339), V10 +0.01908 (cumulative -0.04607), V1 -0.01864 (cumulative -0.1302)
+[ Info: Variance change at n=52; largest: V1 -0.07133 (cumulative -0.2015), V6 -0.02083 (cumulative -0.1548), V28 -0.01629 (cumulative -0.1254)
+[ Info: Repeat cycle and add the 52-th instance to the dataset
+[ Info: Variance change at n=53; largest: V1 -0.06213 (cumulative -0.2637), V22 -0.01754 (cumulative +0.06764), V28 -0.01665 (cumulative -0.142)
+[ Info: Variance change at n=54; largest: V1 +0.06289 (cumulative -0.2008), V28 -0.01693 (cumulative -0.1589), V22 -0.01693 (cumulative +0.05071)
+[ Info: Variance change at n=55; largest: V1 -0.06129 (cumulative -0.2621), V28 -0.01715 (cumulative -0.1761), V22 -0.01636 (cumulative +0.03435)
+[ Info: Variance change at n=56; largest: V1 -0.06287 (cumulative -0.3249), V28 -0.01732 (cumulative -0.1934), V22 +0.01178 (cumulative +0.04614)
+[ Info: Variance change at n=57; largest: V1 +0.05582 (cumulative -0.2691), V28 -0.01743 (cumulative -0.2108), V22 -0.01595 (cumulative +0.03019)
+[ Info: Repeat cycle and add the 57-th instance to the dataset
+[ Info: Variance change at n=58; largest: V1 +0.04982 (cumulative -0.2193), V21 +0.04427 (cumulative +0.1865), V26 +0.04235 (cumulative -0.1631)
+[ Info: Variance change at n=59; largest: V1 -0.05911 (cumulative -0.2784), V21 +0.04049 (cumulative +0.227), V26 +0.03919 (cumulative -0.1239)
+[ Info: Variance change at n=60; largest: V21 +0.03701 (cumulative +0.264), V26 +0.03628 (cumulative -0.08766), V3 +0.03327 (cumulative -0.08114)
+[ Info: Variance change at n=61; largest: V7 +0.0604 (cumulative +0.09242), V1 -0.05551 (cumulative -0.3561), V21 +0.0338 (cumulative +0.2978)
+[ Info: Variance change at n=62; largest: V1 -0.05355 (cumulative -0.4097), V26 +0.03109 (cumulative -0.02298), V21 +0.03085 (cumulative +0.3287)
+[ Info: Repeat cycle and add the 62-th instance to the dataset
+[ Info: Variance change at n=63; largest: V7 +0.05397 (cumulative +0.1515), V1 +0.04328 (cumulative -0.3664), V26 +0.02879 (cumulative +0.005812)
+[ Info: Variance change at n=64; largest: V7 +0.05018 (cumulative +0.2016), V1 +0.03886 (cumulative -0.3275), V26 +0.02666 (cumulative +0.03247)
+[ Info: Variance change at n=65; largest: V1 -0.05272 (cumulative -0.3802), V7 +0.04666 (cumulative +0.2483), V26 +0.02468 (cumulative +0.05715)
+[ Info: Variance change at n=66; largest: V1 -0.04862 (cumulative -0.4289), V26 +0.02284 (cumulative +0.07999), V21 +0.02114 (cumulative +0.4268)
+[ Info: Variance change at n=67; largest: V1 -0.04729 (cumulative -0.4762), V6 +0.02976 (cumulative -0.1062), V26 +0.02114 (cumulative +0.1011)
+[ Info: Repeat cycle and add the 67-th instance to the dataset
+[ Info: The negation of the constraint is UNSAT; thus, the entire formula is SAT and the model is certified.
+[ Info: SyntaxBranch: V35 ≥ 1 ∧ V35 ≤ 1 ∧ V34 ≥ 0 ∧ V34 ≤ 0
+[ Info: SyntaxBranch: [Or] ≥ 4 ∧ [Or] ≤ 4
+[ Info: Variance change at n=38; largest: V21 +0.04267 (cumulative +0.04267), V6 -0.03311 (cumulative -0.03311), V28 +0.02347 (cumulative +0.02347)
+[ Info: Variance change at n=39; largest: V1 +0.15 (cumulative +0.1674), V21 +0.03686 (cumulative +0.07953), V7 -0.02052 (cumulative -4.863e-05)
+[ Info: Variance change at n=40; largest: V1 +0.1292 (cumulative +0.2966), V21 +0.03175 (cumulative +0.1113), V10 -0.01791 (cumulative +0.01086)
+[ Info: Variance change at n=41; largest: V22 +0.04998 (cumulative +0.02955), V21 +0.02725 (cumulative +0.1385), V7 -0.01979 (cumulative -0.002838)
+[ Info: Variance change at n=42; largest: V1 -0.1164 (cumulative +0.1655), V22 +0.04437 (cumulative +0.07391), V6 -0.02915 (cumulative -0.07015)
+[ Info: Repeat cycle and add the 42-th instance to the dataset
+[ Info: Variance change at n=43; largest: V1 -0.08653 (cumulative +0.07894), V21 +0.01978 (cumulative +0.1816), V7 +0.01201 (cumulative +0.0234)
+[ Info: Variance change at n=44; largest: V1 -0.1063 (cumulative -0.02738), V22 +0.03775 (cumulative +0.1001), V6 -0.02728 (cumulative -0.09642)
+[ Info: Variance change at n=45; largest: V1 +0.09852 (cumulative +0.07114), V10 -0.01474 (cumulative -0.02921), V21 +0.01394 (cumulative +0.2122)
+[ Info: Variance change at n=46; largest: V1 -0.08248 (cumulative -0.01133), V22 -0.0126 (cumulative +0.07459), V21 +0.01151 (cumulative +0.2237)
+[ Info: Variance change at n=47; largest: V22 +0.03116 (cumulative +0.1058), V1 -0.01955 (cumulative -0.03088), V7 -0.01866 (cumulative +0.02985)
+[ Info: Repeat cycle and add the 47-th instance to the dataset
+[ Info: Variance change at n=48; largest: V1 -0.07907 (cumulative -0.11), V22 -0.01339 (cumulative +0.09236), V26 -0.009867 (cumulative -0.1293)
+[ Info: Variance change at n=49; largest: V1 -0.09087 (cumulative -0.2008), V22 +0.02693 (cumulative +0.1193), V6 -0.02386 (cumulative -0.1275)
+[ Info: Variance change at n=50; largest: V1 +0.07568 (cumulative -0.1251), V22 -0.01388 (cumulative +0.1054), V10 -0.01252 (cumulative -0.04874)
+[ Info: Variance change at n=51; largest: V1 -0.0748 (cumulative -0.1999), V22 -0.01348 (cumulative +0.09194), V28 -0.01109 (cumulative +0.02203)
+[ Info: Variance change at n=52; largest: V1 -0.02294 (cumulative -0.2229), V22 +0.02273 (cumulative +0.1147), V7 -0.01685 (cumulative +0.02895)
+[ Info: Repeat cycle and add the 52-th instance to the dataset
+[ Info: Variance change at n=53; largest: V1 -0.08093 (cumulative -0.3038), V6 +0.05254 (cumulative -0.08094), V26 +0.04383 (cumulative -0.122)
+[ Info: Variance change at n=54; largest: V1 +0.0615 (cumulative -0.2423), V6 +0.04787 (cumulative -0.03307), V26 +0.04021 (cumulative -0.08174)
+[ Info: Variance change at n=55; largest: V7 +0.05567 (cumulative +0.09056), V1 +0.0542 (cumulative -0.1881), V26 +0.0369 (cumulative -0.04484)
+[ Info: Variance change at n=56; largest: V26 +0.03386 (cumulative -0.01098), V3 +0.02963 (cumulative -0.008791), V1 -0.02938 (cumulative -0.2175)
+[ Info: Variance change at n=57; largest: V1 -0.06949 (cumulative -0.287), V7 +0.04911 (cumulative +0.1392), V26 +0.03108 (cumulative +0.0201)
+[ Info: Repeat cycle and add the 57-th instance to the dataset
+[ Info: The negation of the constraint is UNSAT; thus, the entire formula is SAT and the model is certified.
+B
+First cor: 1.0; Cert cor: 1.0

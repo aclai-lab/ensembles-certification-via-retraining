@@ -1,0 +1,2 @@
+(numtrees = 32, maxdepth = 5, batchsize = 1, lcomplexity = 2, rcomplexity = 1, tottime = 10.677071446, convtime = 0.1843040530000011, numcycles = 3, metricpre = 0.42857142857142855, metricpost = 0.5)
+SyntaxBranch: V2 ≥ 32 ∧ V2 ≤ 36 ∧ V3 ≥ 9 ∧ V3 ≤ 12 → [Or] ≥ 1 ∧ [Or] ≤ 1
